@@ -1,0 +1,6 @@
+{
+  "name": "Lengua 1.º ESO — Իսպաներենի քննության պատրաստություն",
+  "description": "Ինտերակտիվ ուսումնական հավելված 1.º ESO Lengua Castellana y Literatura քննության պատրաստության համար՝ իսպաներենից հայերեն սեղմումով թարգմանությամբ։",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

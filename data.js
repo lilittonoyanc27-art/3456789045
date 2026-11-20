@@ -1,0 +1,2057 @@
+// Complete bilingual Spanish–Armenian curriculum data for Lengua Castellana y Literatura — 1.º ESO
+
+export const NAV_TABS = [
+  { id: 'exam1', labelHy: 'Քննություն 1', labelEs: 'Prueba 1' },
+  { id: 'exam2', labelHy: 'Քննություն 2', labelEs: 'Simulacro 2' },
+  { id: 'theory', labelHy: 'Տեսություն', labelEs: 'Teoría' },
+  { id: 'resumen', labelHy: 'Ամփոփում', labelEs: 'Resumen' },
+  { id: 'bigexam', labelHy: 'Մեծ քննություն', labelEs: 'Examen 80 pts' },
+  { id: 'miniexam', labelHy: 'Թեստ (10)', labelEs: 'Repaso 10' },
+];
+
+// ============================================================================
+// MODULE 1: PRUEBA 1 — UNA AMISTAD INESPERADA (10 puntos)
+// ============================================================================
+export const EXAM_1 = {
+  titleEs: 'Prueba de Lengua Castellana y Literatura — 1.º ESO',
+  titleHy: 'Իսպաներենի և գրականության քննություն — 1.º ESO (7-րդ դասարան)',
+  metaEs: 'Noviembre 2026 · Modelo de examen · 10 puntos',
+  metaHy: 'Նոյեմբեր 2026 · Քննության մոդել · 10 միավոր',
+  story: {
+    titleEs: 'Una amistad inesperada',
+    titleHy: 'Անսպասելի ընկերություն',
+    noteEs: 'Texto original elaborado para practicar el examen de 1.º ESO.',
+    noteHy: 'Բնօրինակ տեքստ՝ պատրաստված 1.º ESO քննության համար պարապելու նպատակով։',
+    paragraphs: [
+      [
+        {
+          es: 'Recuerdo aquella tarde de noviembre como uno de los días más especiales del curso.',
+          hy: 'Հիշում եմ նոյեմբերյան այն կեսօրը՝ որպես ուսումնական տարվա ամենահատուկ օրերից մեկը։',
+        },
+        {
+          es: 'Al salir del instituto, vi a una compañera nueva sentada sola junto a la biblioteca.',
+          hy: 'Երբ դուրս եկա դպրոցից, գրադարանի մոտ տեսա մի նոր աշակերտուհու, որը միայնակ նստած էր։',
+        },
+        {
+          es: 'Se llamaba Inés y había llegado a nuestro barrio hacía apenas una semana.',
+          hy: 'Նրա անունը Ինես էր, և նա ընդամենը մեկ շաբաթ առաջ էր տեղափոխվել մեր թաղամաս։',
+        },
+        {
+          es: 'Mientras los demás alumnos corrían hacia la parada del autobús, ella observaba el patio con una tristeza que intentaba disimular.',
+          hy: 'Մինչ մյուս աշակերտները վազում էին դեպի ավտոբուսի կանգառը, նա տխուր հայացքով նայում էր դպրոցի բակին՝ փորձելով թաքցնել իր տխրությունը։',
+        },
+      ],
+      [
+        {
+          es: 'Me acerqué para preguntarle si necesitaba ayuda.',
+          hy: 'Ես մոտեցա նրան և հարցրի՝ արդյոք օգնության կարիք ունի։',
+        },
+        {
+          es: 'Al principio respondió con pocas palabras, pero después me confesó que echaba de menos a sus amigos y que todavía no conocía bien la ciudad.',
+          hy: 'Սկզբում նա շատ քիչ էր խոսում, բայց հետո խոստովանեց, որ կարոտում է իր ընկերներին և դեռ լավ չի ճանաչում քաղաքը։',
+        },
+        {
+          es: 'Le propuse acompañarla hasta la plaza, donde algunos compañeros se reunían después de clase.',
+          hy: 'Ես առաջարկեցի նրան ուղեկցել մինչև հրապարակ, որտեղ դասերից հետո հավաքվում էին մեր դասընկերներից մի քանիսը։',
+        },
+      ],
+      [
+        {
+          es: 'Durante el camino hablamos de libros, música y de las pequeñas cosas que nos hacían reír.',
+          hy: 'Ճանապարհին մենք զրուցում էինք գրքերի, երաժշտության և այն փոքրիկ բաների մասին, որոնք մեզ ծիծաղեցնում էին։',
+        },
+        {
+          es: 'Poco a poco, nuestra conversación se convirtió en un rayo de esperanza para Inés.',
+          hy: 'Կամաց-կամաց մեր զրույցը Ինեսի համար դարձավ հույսի մի շող։',
+          underline: 'un rayo de esperanza',
+        },
+        {
+          es: 'Cuando llegamos a la plaza, mis amigos la invitaron a participar en un juego.',
+          hy: 'Երբ հասանք հրապարակ, իմ ընկերները նրան հրավիրեցին մասնակցելու խաղին։',
+        },
+        {
+          es: 'Por primera vez aquella tarde, la vi sonreír sin preocupación.',
+          hy: 'Այդ կեսօրին առաջին անգամ տեսա, թե ինչպես նա ժպտաց՝ առանց անհանգստության։',
+        },
+      ],
+      [
+        {
+          es: 'Entonces comprendí que la amistad es un puente capaz de unir a personas que antes se sentían muy lejos.',
+          hy: 'Այդ պահին ես հասկացա, որ ընկերությունը կամուրջ է, որը կարող է միավորել այն մարդկանց, որոնք նախկինում իրենց շատ հեռու էին զգում միմյանցից։',
+          underline: 'la amistad es un puente',
+        },
+        {
+          es: 'Desde aquel día, Inés empezó a sentirse parte de nuestro grupo, y yo descubrí que un pequeño gesto de amabilidad puede cambiar el día de alguien.',
+          hy: 'Այդ օրվանից Ինեսը սկսեց իրեն զգալ մեր խմբի մի մասը, իսկ ես բացահայտեցի, որ բարության մի փոքրիկ դրսևորումը կարող է փոխել ինչ-որ մեկի օրը։',
+        },
+      ],
+    ],
+  },
+  questionsAF: [
+    {
+      letter: 'A',
+      points: '1 punto',
+      qEs: 'Resume el texto con tus propias palabras.',
+      qHy: 'Ամփոփի՛ր տեքստը քո սեփական բառերով։',
+      aEs: 'El texto cuenta la historia de un estudiante que conoce a Inés, una compañera nueva que se siente sola. Decide ayudarla y presentarle a sus amigos. Finalmente, Inés consigue integrarse en el grupo y descubre el valor de la amistad.',
+      aHy: 'Տեքստը պատմում է մի աշակերտի մասին, որը ծանոթանում է Ինեսի հետ՝ նոր աշակերտուհու, որն իրեն միայնակ է զգում։ Նա որոշում է օգնել աղջկան և ծանոթացնել իր ընկերների հետ։ Վերջում Ինեսը կարողանում է դառնալ խմբի անդամ և բացահայտում է ընկերության արժեքը։',
+      tipEs: 'Por qué esta respuesta es correcta: incluye el protagonista, el problema, la acción principal y el final, sin detalles innecesarios.',
+      tipHy: 'Ինչո՞ւ է այս պատասխանը ճիշտ․ նշված են գլխավոր հերոսը, խնդիրը, հիմնական իրադարձությունը և արդյունքը։ Ավելորդ մանրամասներ չկան։',
+    },
+    {
+      letter: 'B',
+      points: '1 punto',
+      qEs: 'Justifica si este texto pertenece a la literatura culta o popular y por qué.',
+      qHy: 'Հիմնավորի՛ր՝ արդյոք այս տեքստը պատկանում է հեղինակային, թե ժողովրդական գրականությանը, և ինչու։',
+      aEs: 'El texto pertenece a la literatura culta porque es una narración escrita por un autor conocido, en este caso el creador del texto, y utiliza un lenguaje cuidado y elaborado.',
+      aHy: 'Այս տեքստը պատկանում է հեղինակային գրականությանը (literatura culta), քանի որ այն գրված է որոշակի հեղինակի կողմից և օգտագործում է խնամքով ընտրված ու մշակված լեզու։',
+      tipEs: 'Recuerda: la literatura culta tiene un autor concreto y suele ser escrita. La literatura popular se transmite oralmente de generación en generación y suele ser anónima.',
+      tipHy: 'Literatura culta — ունի որոշակի հեղինակ, սովորաբար գրավոր է։ Literatura popular — փոխանցվում է բանավոր՝ սերնդեսերունդ, հեղինակը կարող է անհայտ լինել։ Կարևոր է․ բարդ բառերն ինքնին չեն նշանակում, որ տեքստը հեղինակային գրականություն է։',
+    },
+    {
+      letter: 'C',
+      points: '1 punto',
+      qEs: 'Explica con tus palabras las dos expresiones que aparecen subrayadas en el texto.',
+      qHy: 'Քո բառերով բացատրի՛ր տեքստում ընդգծված երկու արտահայտությունները։',
+      aParts: [
+        {
+          termEs: '1. «Un rayo de esperanza»',
+          termHy: '1. Հույսի մի շող',
+          es: 'Significa que Inés empieza a sentirse mejor y a pensar que puede hacer nuevos amigos.',
+          hy: 'Նշանակում է, որ Ինեսը սկսում է իրեն ավելի լավ զգալ և հույս ունենալ, որ կարող է նոր ընկերներ ձեռք բերել։',
+        },
+        {
+          termEs: '2. «La amistad es un puente»',
+          termHy: '2. Ընկերությունը կամուրջ է',
+          es: 'Significa que la amistad puede acercar y unir a personas diferentes.',
+          hy: 'Նշանակում է, որ ընկերությունը կարող է մտերմացնել և միավորել տարբեր մարդկանց։',
+        },
+      ],
+    },
+    {
+      letter: 'D',
+      points: '1 punto',
+      qEs: '¿Dirías que las expresiones que acabas de explicar son figuras literarias? ¿Cuáles? Justifica tu respuesta.',
+      qHy: 'Կասե՞ս, որ քո բացատրած արտահայտությունները գրական պատկերավորման միջոցներ են։ Որո՞նք են։ Հիմնավորի՛ր պատասխանդ։',
+      aEs: 'Las dos expresiones son metáforas porque comparan dos realidades sin utilizar la palabra «como». La esperanza se relaciona con un rayo de luz y la amistad se presenta como un puente que une a las personas.',
+      aHy: 'Երկու արտահայտություններն էլ փոխաբերություններ են (metáforas), որովհետև երկու տարբեր երևույթներ համեմատվում են՝ առանց «ինչպես» (como) բառի օգտագործման։ Հույսը ներկայացվում է որպես լույսի շող, իսկ ընկերությունը՝ որպես մարդկանց միավորող կամուրջ։',
+      tipEs: 'Truco: en la metáfora se identifica una realidad con otra diferente sin usar la palabra «como».',
+      tipHy: 'Metáfora — փոխաբերություն․ մեկ հասկացությունը ներկայացվում է մեկ այլ հասկացության միջոցով։',
+    },
+    {
+      letter: 'E',
+      points: '1 punto',
+      qEs: '¿A qué género literario pertenece el texto? Justifica tu respuesta con ejemplos del texto.',
+      qHy: 'Ո՞ր գրական սեռին է պատկանում տեքստը։ Հիմնավորի՛ր պատասխանդ՝ օրինակներ բերելով տեքստից։',
+      aEs: 'El texto pertenece al género narrativo porque un narrador cuenta una historia en la que aparecen personajes, como Inés y sus compañeros. Además, los hechos ocurren en un lugar y un tiempo determinados.',
+      aHy: 'Տեքստը պատկանում է պատմողական սեռին (género narrativo), քանի որ պատմողը ներկայացնում է մի պատմություն, որտեղ կան գործող անձինք, օրինակ՝ Ինեսը և նրա դասընկերները։ Բացի այդ, իրադարձությունները տեղի են ունենում որոշակի ժամանակում և վայրում։',
+      tipEs: 'Cómo recordarlo: Narrativo cuenta una historia; Lírico expresa sentimientos y emociones; Dramático está pensado para representarse en un teatro.',
+      tipHy: 'Ինչպես հիշել․ Narrativo — պատմում է պատմություն։ Lírico — արտահայտում է զգացմունքներ և հույզեր, հաճախ չափածո։ Dramático — նախատեսված է թատերական բեմադրության համար։',
+    },
+    {
+      letter: 'F',
+      points: '1 punto',
+      qEs: '¿Dirías que este texto tiene lenguaje literario? Justifica tu respuesta.',
+      qHy: 'Կասե՞ս, որ այս տեքստում օգտագործված է գեղարվեստական լեզու։ Հիմնավորի՛ր պատասխանդ։',
+      aEs: 'Sí, el texto tiene lenguaje literario porque utiliza expresiones como «un rayo de esperanza» y «la amistad es un puente». Estas metáforas embellecen la narración y ayudan a expresar sentimientos.',
+      aHy: 'Այո՛, տեքստում օգտագործված է գեղարվեստական լեզու, որովհետև հանդիպում են այնպիսի արտահայտություններ, ինչպիսիք են «հույսի մի շող» և «ընկերությունը կամուրջ է»։ Այս փոխաբերությունները գեղեցկացնում են պատմությունը և օգնում արտահայտել զգացմունքները։',
+      tipEs: 'Consejo importante: no respondas solo «Sí, porque es un texto bonito». Incluye siempre un ejemplo del texto.',
+      tipHy: 'Կարևոր խորհուրդ․ մի՛ պատասխանիր միայն «Sí, porque es un texto bonito»։ Պարտադիր բեր օրինակ տեքստից։',
+    },
+  ],
+  resumenGuide: {
+    step1Rows: [
+      {
+        qEs: '¿Quién aparece en la historia?',
+        qHy: 'Ո՞վ է մասնակցում պատմությանը։',
+        aEs: 'Un estudiante e Inés.',
+        aHy: 'Մի աշակերտ և Ինեսը։',
+      },
+      {
+        qEs: '¿Qué ocurre?',
+        qHy: 'Ի՞նչ է տեղի ունենում։',
+        aEs: 'Inés se siente sola y un compañero decide ayudarla.',
+        aHy: 'Ինեսն իրեն միայնակ է զգում, և դասընկերը որոշում է օգնել նրան։',
+      },
+      {
+        qEs: '¿Cómo termina?',
+        qHy: 'Ինչպե՞ս է ավարտվում պատմությունը։',
+        aEs: 'Inés hace nuevos amigos y se siente mejor.',
+        aHy: 'Ինեսը նոր ընկերներ է ձեռք բերում և իրեն ավելի լավ է զգում։',
+      },
+    ],
+    modelEs:
+      'El texto cuenta la historia de un estudiante que conoce a Inés, una compañera nueva que se siente sola. El protagonista decide ayudarla y presentarle a sus amigos. Al final, Inés se siente más feliz y comprende, junto con el narrador, la importancia de la amistad.',
+    modelHy:
+      'Տեքստը պատմում է մի աշակերտի մասին, որը ծանոթանում է Ինեսի հետ՝ նոր աշակերտուհու, որն իրեն միայնակ է զգում։ Գլխավոր հերոսը որոշում է օգնել նրան և ծանոթացնել իր ընկերների հետ։ Վերջում Ինեսն իրեն ավելի երջանիկ է զգում և պատմողի հետ միասին հասկանում է ընկերության կարևորությունը։',
+    stepSentences: [
+      {
+        es: 'El texto cuenta la historia de un estudiante que conoce a Inés.',
+        hy: 'Տեքստը պատմում է մի աշակերտի մասին, որը ծանոթանում է Ինեսի հետ։',
+      },
+      {
+        es: 'Inés se siente sola y el estudiante decide ayudarla.',
+        hy: 'Ինեսն իրեն միայնակ է զգում, և աշակերտը որոշում է օգնել նրան։',
+      },
+      {
+        es: 'Al final, Inés encuentra nuevos amigos y se siente feliz.',
+        hy: 'Վերջում Ինեսը նոր ընկերներ է ձեռք բերում և իրեն երջանիկ է զգում։',
+      },
+    ],
+    rules: [
+      { es: 'Escribe 2 o 3 frases.', hy: 'Գրի՛ր 2–3 նախադասություն։' },
+      { es: 'Cuenta solamente lo más importante.', hy: 'Պատմի՛ր միայն ամենագլխավորը։' },
+      { es: 'No copies frases largas del texto.', hy: 'Մի՛ արտագրիր երկար նախադասություններ տեքստից։' },
+      { es: 'No des tu opinión personal.', hy: 'Մի՛ գրիր քո անձնական կարծիքը։' },
+    ],
+    quiz: [
+      {
+        id: 'r1',
+        qEs: '1. ¿Quién es el personaje que necesita ayuda?',
+        qHy: '1. Ո՞ր կերպարն ունի օգնության կարիք։',
+        options: [
+          { es: 'Inés', hy: 'Ինեսը' },
+          { es: 'La profesora', hy: 'Ուսուցչուհին' },
+          { es: 'El director', hy: 'Տնօրենը' },
+        ],
+        correct: 0,
+      },
+      {
+        id: 'r2',
+        qEs: '2. ¿Cuál es el problema principal?',
+        qHy: '2. Ո՞րն է գլխավոր խնդիրը։',
+        options: [
+          { es: 'Inés ha perdido sus libros.', hy: 'Ինեսը կորցրել է իր գրքերը։' },
+          { es: 'Inés se siente sola y no conoce a nadie.', hy: 'Ինեսն իրեն միայնակ է զգում և ոչ ոքի չի ճանաչում։' },
+          { es: 'Inés no quiere estudiar.', hy: 'Ինեսը չի ուզում սովորել։' },
+        ],
+        correct: 1,
+      },
+      {
+        id: 'r3',
+        qEs: '3. ¿Qué hace el protagonista?',
+        qHy: '3. Ի՞նչ է անում գլխավոր հերոսը։',
+        options: [
+          { es: 'Se marcha a casa.', hy: 'Գնում է տուն։' },
+          { es: 'Llama a la policía.', hy: 'Զանգում է ոստիկանություն։' },
+          { es: 'Ayuda a Inés y le presenta a sus amigos.', hy: 'Օգնում է Ինեսին և ծանոթացնում է իր ընկերների հետ։' },
+        ],
+        correct: 2,
+      },
+      {
+        id: 'r4',
+        qEs: '4. ¿Cómo termina la historia?',
+        qHy: '4. Ինչպե՞ս է ավարտվում պատմությունը։',
+        options: [
+          { es: 'Inés encuentra nuevos amigos.', hy: 'Ինեսը նոր ընկերներ է գտնում։' },
+          { es: 'Inés cambia de ciudad.', hy: 'Ինեսը փոխում է քաղաքը։' },
+          { es: 'Todos se enfadan.', hy: 'Բոլորը բարկանում են։' },
+        ],
+        correct: 0,
+      },
+    ],
+  },
+  figurasQuiz: {
+    options: [
+      { es: 'Personificación', hy: 'Անձնավորում' },
+      { es: 'Hipérbole', hy: 'Չափազանցություն' },
+      { es: 'Anáfora', hy: 'Սկզբնակի կրկնություն' },
+      { es: 'Ironía', hy: 'Հեգնանք' },
+      { es: 'Hipérbaton', hy: 'Շրջադասություն' },
+    ],
+    items: [
+      {
+        id: 'f1',
+        es: '1. El reloj me gritó que ya era hora de levantarme.',
+        hy: 'Ժամացույցը բղավեց ինձ, որ արդեն ժամանակն է վեր կենալու։',
+        correct: 0,
+        expEs: 'Personificación: se atribuye al reloj una acción humana (gritar).',
+        expHy: 'Անձնավորում․ ժամացույցին վերագրվում է մարդկային գործողություն՝ բղավելը։',
+      },
+      {
+        id: 'f2',
+        es: '2. Corrí tan rápido que di la vuelta al mundo en un segundo.',
+        hy: 'Ես այնքան արագ վազեցի, որ մեկ վայրկյանում շրջեցի ամբողջ աշխարհը։',
+        correct: 1,
+        expEs: 'Hipérbole: se exagera muchísimo la velocidad.',
+        expHy: 'Չափազանցություն․ արագությունը չափազանցված է։',
+      },
+      {
+        id: 'f3',
+        es: '3. Me reí tanto que casi exploté de alegría.',
+        hy: 'Ես այնքան ծիծաղեցի, որ քիչ էր մնում ուրախությունից պայթեի։',
+        correct: 1,
+        expEs: 'Hipérbole: el sentimiento de alegría se presenta de forma exagerada.',
+        expHy: 'Չափազանցություն․ զգացմունքը ներկայացվում է չափազանցված ձևով։',
+      },
+      {
+        id: 'f4',
+        es: '4. Ni la lluvia, ni el viento, ni el frío detuvieron a los amigos.',
+        hy: 'Ո՛չ անձրևը, ո՛չ քամին, ո՛չ ցուրտը չկարողացան կանգնեցնել ընկերներին։',
+        correct: 2,
+        expEs: 'Anáfora: la palabra «ni» se repite al principio de varios elementos.',
+        expHy: 'Սկզբնակի կրկնություն․ «ni» բառը կրկնվում է մի քանի հատվածների սկզբում։',
+      },
+      {
+        id: 'f5',
+        es: '5. ¡Qué puntual eres! —dijo Marta cuando Luis llegó una hora tarde.',
+        hy: '— Ի՜նչ ճշտապահ ես,— ասաց Մարտան, երբ Լուիսը մեկ ժամ ուշացավ։',
+        correct: 3,
+        expEs: 'Ironía: Marta dice «puntual», pero quiere expresar lo contrario.',
+        expHy: 'Հեգնանք․ Մարտան ասում է «ճշտապահ», բայց իրականում նկատի ունի հակառակը։',
+      },
+      {
+        id: 'f6',
+        es: '6. En el jardín cantaban felices los pájaros.',
+        hy: 'Այգում ուրախ երգում էին թռչունները։',
+        correct: 4,
+        expEs: 'Hipérbaton: se altera el orden habitual. Orden normal: «Los pájaros cantaban felices en el jardín.»',
+        expHy: 'Շրջադասություն․ նախադասության բառերի սովորական հերթականությունը փոխված է։ Սովորական տարբերակը՝ «Թռչուններն ուրախ երգում էին այգում։»',
+      },
+    ],
+  },
+  miniCheatSheet: [
+    { es: 'Personificación', hy: 'Անձնավորում', clueEs: 'Un objeto, animal o fenómeno actúa como una persona.', clueHy: 'Առարկան կամ երևույթը իրեն պահում է մարդու պես։' },
+    { es: 'Hipérbole', hy: 'Չափազանցություն', clueEs: 'Es una exageración muy grande de la realidad.', clueHy: 'Ուժեղ չափազանցություն։' },
+    { es: 'Anáfora', hy: 'Սկզբնակի կրկնություն', clueEs: 'Se repite la misma palabra al principio de varias frases o versos.', clueHy: 'Նույն բառը կրկնվում է հատվածների սկզբում։' },
+    { es: 'Ironía', hy: 'Հեգնանք', clueEs: 'Se dice algo, pero en realidad se quiere expresar lo contrario.', clueHy: 'Ասում են մեկ բան, նկատի ունեն հակառակը։' },
+    { es: 'Hipérbaton', hy: 'Շրջադասություն', clueEs: 'Se cambia el orden habitual de las palabras en la oración.', clueHy: 'Բառերի անսովոր հերթականություն։' },
+    { es: 'Metáfora', hy: 'Փոխաբերություն', clueEs: 'Se identifica una realidad con otra sin usar la palabra «como».', clueHy: 'Մեկ հասկացությունը ներկայացվում է մյուսի միջոցով։' },
+  ],
+};
+
+// ============================================================================
+// MODULE 2: SIMULACRO 2 — LA BIBLIOTECA DE LOS SUEÑOS & EJERCICIOS 1–9
+// ============================================================================
+export const EXAM_2 = {
+  titleEs: 'Simulacro de examen 2 y taller de práctica — 1.º ESO',
+  titleHy: 'Լրացուցիչ քննություն 2 և վարժությունների հավաքածու — 1.º ESO',
+  metaEs: '10 puntos · Ejercicios 1–9 · Resumen y justificación',
+  metaHy: '10 միավոր · Վարժություններ 1–9 · Ամփոփում և հիմնավորում',
+  story: {
+    titleEs: 'La biblioteca de los sueños',
+    titleHy: 'Երազանքների գրադարանը',
+    noteEs: 'Texto original para la preparación del examen.',
+    noteHy: 'Բնօրինակ տեքստ՝ քննությանը պատրաստվելու համար։',
+    paragraphs: [
+      [
+        {
+          es: 'Aquella mañana de otoño, Lucía llegó al colegio más temprano de lo habitual.',
+          hy: 'Աշնանային այն առավոտ Լուսիան դպրոց եկավ սովորականից ավելի վաղ։',
+        },
+        {
+          es: 'Mientras caminaba por el pasillo, descubrió que la biblioteca estaba abierta.',
+          hy: 'Միջանցքով քայլելիս նա նկատեց, որ գրադարանը բաց է։',
+        },
+        {
+          es: 'Desde pequeña, siempre había sentido una gran curiosidad por los libros, pero nunca se había atrevido a entrar sola.',
+          hy: 'Փոքրուց նա միշտ մեծ հետաքրքրություն էր զգացել գրքերի հանդեպ, բայց երբեք չէր համարձակվել մենակ ներս մտնել։',
+        },
+      ],
+      [
+        {
+          es: 'Al cruzar la puerta, encontró a don Antonio, el bibliotecario, que estaba organizando unos libros antiguos.',
+          hy: 'Դուռը բացելով՝ նա տեսավ գրադարանավար դոն Անտոնիոյին, որը դասավորում էր հին գրքերը։',
+        },
+        {
+          es: 'El hombre la saludó amablemente y le mostró una pequeña colección de cuentos.',
+          hy: 'Տղամարդը սիրալիր ողջունեց նրան և ցույց տվեց պատմվածքների մի փոքրիկ հավաքածու։',
+        },
+      ],
+      [
+        {
+          es: '—Cada libro guarda una historia que espera ser descubierta —le dijo con una sonrisa.',
+          hy: '— Յուրաքանչյուր գիրք պահում է մի պատմություն, որը սպասում է բացահայտվելուն,— ժպիտով ասաց նա։',
+        },
+      ],
+      [
+        {
+          es: 'Lucía eligió un libro de aventuras y comenzó a leer.',
+          hy: 'Լուսիան ընտրեց արկածային մի գիրք և սկսեց կարդալ։',
+        },
+        {
+          es: 'Pronto comprendió que los libros eran ventanas a otros mundos.',
+          hy: 'Շուտով նա հասկացավ, որ գրքերը պատուհաններ են դեպի այլ աշխարհներ։',
+          underline: 'los libros eran ventanas a otros mundos',
+        },
+        {
+          es: 'A través de sus páginas podía conocer lugares lejanos, personajes extraordinarios y experiencias que nunca había imaginado.',
+          hy: 'Դրանց էջերի միջոցով նա կարող էր ճանաչել հեռավոր վայրեր, արտասովոր կերպարներ և փորձառություններ, որոնց մասին երբեք չէր պատկերացրել։',
+        },
+      ],
+      [
+        {
+          es: 'Al día siguiente, decidió regresar con su amigo Daniel, que no disfrutaba demasiado de la lectura.',
+          hy: 'Հաջորդ օրը նա որոշեց վերադառնալ իր ընկեր Դանիելի հետ, որը շատ չէր սիրում կարդալ։',
+        },
+        {
+          es: 'Al principio, Daniel parecía aburrido, pero Lucía le contó una historia tan interesante que consiguió despertar su curiosidad.',
+          hy: 'Սկզբում Դանիելը ձանձրացած էր թվում, բայց Լուսիան նրան այնքան հետաքրքիր պատմություն պատմեց, որ կարողացավ արթնացնել նրա հետաքրքրությունը։',
+        },
+      ],
+      [
+        {
+          es: 'Desde entonces, ambos visitaban la biblioteca todas las semanas.',
+          hy: 'Այդ օրվանից երկուսն էլ ամեն շաբաթ այցելում էին գրադարան։',
+        },
+        {
+          es: 'Lucía comprendió que la amistad era un puente entre dos mundos diferentes y que compartir aquello que nos gusta puede crear recuerdos inolvidables.',
+          hy: 'Լուսիան հասկացավ, որ ընկերությունը կամուրջ է երկու տարբեր աշխարհների միջև, և որ մեր սիրածը կիսելը կարող է անմոռանալի հուշեր ստեղծել։',
+          underline: 'la amistad era un puente entre dos mundos diferentes',
+        },
+      ],
+    ],
+  },
+  questionsAF: [
+    {
+      letter: 'A',
+      points: '1 punto',
+      qEs: 'Resume el texto con tus propias palabras.',
+      qHy: 'Ամփոփի՛ր տեքստը քո սեփական բառերով։',
+      aEs: 'El texto cuenta la historia de Lucía, una niña que descubre su interés por la lectura en la biblioteca del colegio. Después, invita a su amigo Daniel, que al principio no disfruta leyendo. Finalmente, los dos empiezan a disfrutar de los libros y fortalecen su amistad.',
+      aHy: 'Տեքստը պատմում է Լուսիայի մասին, որը դպրոցի գրադարանում բացահայտում է ընթերցանության նկատմամբ իր հետաքրքրությունը։ Հետո նա հրավիրում է իր ընկեր Դանիելին, որը սկզբում չէր սիրում կարդալ։ Վերջում երկուսն էլ սկսում են հաճույքով գրքեր կարդալ, և նրանց ընկերությունն ամրապնդվում է։',
+    },
+    {
+      letter: 'B',
+      points: '1 punto',
+      qEs: '¿Este texto pertenece a la literatura culta o popular? Justifica tu respuesta.',
+      qHy: 'Այս տեքստը պատկանո՞ւմ է հեղինակային, թե՞ ժողովրդական գրականությանը։ Հիմնավորի՛ր պատասխանդ։',
+      aEs: 'Pertenece a la literatura culta porque es un texto escrito y creado por un autor concreto y utiliza un lenguaje cuidado y elaborado.',
+      aHy: 'Պատկանում է հեղինակային գրականությանը (literatura culta), որովհետև ստեղծվել է որոշակի հեղինակի կողմից և օգտագործում է մշակված լեզու։',
+    },
+    {
+      letter: 'C',
+      points: '1 punto',
+      qEs: 'Explica con tus palabras las dos expresiones subrayadas.',
+      qHy: 'Քո բառերով բացատրի՛ր ընդգծված երկու արտահայտությունները։',
+      aParts: [
+        {
+          termEs: '1. «Los libros eran ventanas a otros mundos»',
+          termHy: '1. «Գրքերը պատուհաններ են դեպի այլ աշխարհներ»',
+          es: 'Significa que los libros nos permiten imaginar y conocer lugares, personas, historias y experiencias diferentes.',
+          hy: 'Գրքերը մեզ հնարավորություն են տալիս պատկերացնել և ճանաչել տարբեր վայրեր, մարդկանց, պատմություններ և փորձառություններ։',
+        },
+        {
+          termEs: '2. «La amistad era un puente entre dos mundos diferentes»',
+          termHy: '2. «Ընկերությունը կամուրջ է երկու տարբեր աշխարհների միջև»',
+          es: 'Significa que la amistad puede unir a personas que tienen gustos o experiencias diferentes.',
+          hy: 'Ընկերությունը կարող է միավորել տարբեր հետաքրքրություններ կամ փորձառություններ ունեցող մարդկանց։',
+        },
+      ],
+    },
+    {
+      letter: 'D',
+      points: '1 punto',
+      qEs: '¿Qué figuras literarias aparecen en las expresiones subrayadas? Justifica tu respuesta.',
+      qHy: 'Ի՞նչ գեղարվեստական միջոցներ կան ընդգծված արտահայտություններում։ Հիմնավորի՛ր։',
+      aEs: 'Las dos expresiones son metáforas porque relacionan dos realidades diferentes sin utilizar la palabra «como». Los libros se presentan como ventanas y la amistad como un puente.',
+      aHy: 'Երկու արտահայտություններն էլ փոխաբերություններ են (metáforas), որովհետև երկու տարբեր երևույթներ կապվում են իրար՝ առանց «ինչպես» (como) բառի։ Գրքերը ներկայացվում են որպես պատուհաններ, իսկ ընկերությունը՝ որպես կամուրջ։',
+    },
+    {
+      letter: 'E',
+      points: '1 punto',
+      qEs: '¿A qué género literario pertenece el texto? ¿Por qué?',
+      qHy: 'Ո՞ր գրական սեռին է պատկանում տեքստը։ Ինչո՞ւ։',
+      aEs: 'Pertenece al género narrativo porque un narrador cuenta una historia con personajes, acciones, acontecimientos, tiempo y lugar.',
+      aHy: 'Պատկանում է պատմողական սեռին (género narrativo), որովհետև պատմողը ներկայացնում է հերոսներով, գործողություններով, ժամանակով և վայրով պատմություն։',
+    },
+    {
+      letter: 'F',
+      points: '1 punto',
+      qEs: '¿Tiene el texto lenguaje literario? Escribe un ejemplo y explícalo.',
+      qHy: 'Տեքստն ունի՞ գեղարվեստական լեզու։ Գրի՛ր օրինակ և բացատրի՛ր։',
+      aEs: 'Sí, porque utiliza expresiones imaginativas como «los libros eran ventanas a otros mundos», que ayudan a embellecer el texto y transmitir ideas de manera expresiva.',
+      aHy: 'Այո՛, որովհետև օգտագործվում են պատկերավոր արտահայտություններ, ինչպիսին է «los libros eran ventanas a otros mundos», որոնք գեղեցկացնում են տեքստը և օգնում պատկերավոր փոխանցել մտքերը։',
+    },
+  ],
+  ex2BestResumen: {
+    sentences: [
+      { es: 'Marta encontró un pequeño perro cerca de su casa.', hy: 'Մարտան իր տան մոտ մի փոքրիկ շուն գտավ։' },
+      { es: 'El animal estaba perdido y parecía asustado.', hy: 'Կենդանին կորել էր և վախեցած էր թվում։' },
+      { es: 'La niña decidió ayudarlo y llamó al número que aparecía en su collar.', hy: 'Աղջիկը որոշեց օգնել նրան և զանգեց վզկապի վրա գրված համարով։' },
+      { es: 'Una hora después, llegó su dueño, que le dio las gracias emocionado.', hy: 'Մեկ ժամ անց եկավ տերը, որը հուզված շնորհակալություն հայտնեց նրան։' },
+      { es: 'Marta regresó a casa feliz por haber hecho algo bueno.', hy: 'Մարտան տուն վերադարձավ երջանիկ՝ բարի գործ արած լինելու համար։' },
+    ],
+    textEs:
+      'Marta encontró un pequeño perro cerca de su casa. El animal estaba perdido y parecía asustado. La niña decidió ayudarlo y llamó al número que aparecía en su collar. Una hora después, llegó su dueño, que le dio las gracias emocionado. Marta regresó a casa feliz por haber hecho algo bueno.',
+    textHy:
+      'Մարտան իր տան մոտ մի փոքրիկ շուն գտավ։ Կենդանին կորել էր և վախեցած էր թվում։ Աղջիկը որոշեց օգնել նրան և զանգեց վզկապի վրա գրված համարով։ Մեկ ժամ անց եկավ տերը, որը հուզված շնորհակալություն հայտնեց նրան։ Մարտան տուն վերադարձավ երջանիկ՝ բարի գործ արած լինելու համար։',
+    questionEs: '¿Cuál es el mejor resumen del texto?',
+    questionHy: 'Ո՞րն է տեքստի լավագույն ամփոփումը։',
+    options: [
+      {
+        letter: 'A',
+        es: 'Marta encontró un perro, llamó al dueño y consiguió que el animal regresara a casa.',
+        hy: 'Մարտան գտավ շանը, զանգեց տիրոջը և կարողացավ կենդանուն տուն վերադարձնել։',
+      },
+      {
+        letter: 'B',
+        es: 'Marta encontró un pequeño perro cerca de su casa. El perro estaba asustado. Tenía un collar con un número de teléfono. Una hora después llegó su dueño.',
+        hy: 'Մարտան իր տան մոտ մի փոքրիկ շուն գտավ։ Շունը վախեցած էր։ Նա վզկապ ուներ հեռախոսահամարով։ Մեկ ժամ անց եկավ նրա տերը։',
+      },
+      {
+        letter: 'C',
+        es: 'Me encantan los perros y pienso que Marta es una niña muy buena.',
+        hy: 'Ես շատ եմ սիրում շներին և կարծում եմ, որ Մարտան շատ լավ աղջիկ է։',
+      },
+    ],
+    correct: 0,
+    expEs: 'Respuesta correcta: A. Porque incluye las ideas principales de forma breve, sin copiar frases ni añadir opiniones personales.',
+    expHy: 'Ճիշտ պատասխանը՝ A։ Քանի որ ներկայացնում է գլխավոր մտքերը համառոտ՝ առանց տեքստը արտագրելու և առանց սեփական կարծիք ավելացնելու։',
+  },
+  ex3OrderIdeas: {
+    sentences: [
+      { es: 'Carlos quería aprender a tocar la guitarra, pero al principio le resultaba difícil.', hy: 'Կառլոսը ցանկանում էր կիթառ նվագել սովորել, բայց սկզբում նրա համար դժվար էր։' },
+      { es: 'Su abuelo decidió enseñarle algunas canciones sencillas.', hy: 'Պապիկը որոշեց նրան սովորեցնել մի քանի պարզ երգեր։' },
+      { es: 'Después de varias semanas de práctica, Carlos consiguió tocar su primera canción completa.', hy: 'Մի քանի շաբաթ պարապելուց հետո Կառլոսը կարողացավ նվագել իր առաջին ամբողջական երգը։' },
+      { es: 'Los dos celebraron el pequeño éxito con mucha alegría.', hy: 'Երկուսն էլ մեծ ուրախությամբ նշեցին այդ փոքրիկ հաջողությունը։' },
+    ],
+    textEs:
+      'Carlos quería aprender a tocar la guitarra, pero al principio le resultaba difícil. Su abuelo decidió enseñarle algunas canciones sencillas. Después de varias semanas de práctica, Carlos consiguió tocar su primera canción completa. Los dos celebraron el pequeño éxito con mucha alegría.',
+    textHy:
+      'Կառլոսը ցանկանում էր կիթառ նվագել սովորել, բայց սկզբում նրա համար դժվար էր։ Պապիկը որոշեց նրան սովորեցնել մի քանի պարզ երգեր։ Մի քանի շաբաթ պարապելուց հետո Կառլոսը կարողացավ նվագել իր առաջին ամբողջական երգը։ Երկուսն էլ մեծ ուրախությամբ նշեցին այդ փոքրիկ հաջողությունը։',
+    // Ordered correct sequence:
+    correctOrder: [
+      {
+        id: 'o1',
+        es: 'Carlos quería aprender a tocar la guitarra, pero al principio le resultaba difícil.',
+        hy: 'Կառլոսը ցանկանում էր կիթառ նվագել սովորել, բայց սկզբում դժվարանում էր։',
+      },
+      {
+        id: 'o2',
+        es: 'Su abuelo decidió ayudarlo y enseñarle canciones sencillas.',
+        hy: 'Պապիկը որոշեց օգնել նրան և պարզ երգեր սովորեցնել։',
+      },
+      {
+        id: 'o3',
+        es: 'Después de practicar durante varias semanas, Carlos consiguió tocar su primera canción.',
+        hy: 'Մի քանի շաբաթ պարապելուց հետո Կառլոսը կարողացավ նվագել իր առաջին երգը։',
+      },
+      {
+        id: 'o4',
+        es: 'Finalmente, los dos celebraron el resultado con mucha alegría.',
+        hy: 'Վերջում երկուսն էլ մեծ ուրախությամբ նշեցին արդյունքը։',
+      },
+    ],
+    modelEs: 'Carlos quería aprender a tocar la guitarra y su abuelo decidió ayudarlo. Después de practicar durante varias semanas, consiguió tocar su primera canción.',
+    modelHy: 'Կառլոսը ցանկանում էր կիթառ նվագել սովորել, և պապիկը որոշեց օգնել նրան։ Մի քանի շաբաթ պարապելուց հետո նա կարողացավ նվագել իր առաջին երգը։',
+  },
+  ex4WriteResumen: {
+    sentences: [
+      { es: 'Sofía siempre había soñado con participar en una exposición de pintura.', hy: 'Սոֆիան միշտ երազել էր մասնակցել նկարչական ցուցահանդեսի։' },
+      { es: 'Aunque al principio tenía miedo de mostrar sus dibujos, su profesora la animó a intentarlo.', hy: 'Թեև սկզբում վախենում էր ցույց տալ իր նկարները, ուսուցչուհին քաջալերեց նրան փորձել։' },
+      { es: 'Después de varios días de trabajo, presentó un paisaje lleno de colores.', hy: 'Մի քանի օր աշխատելուց հետո նա ներկայացրեց գույներով լի բնանկար։' },
+      { es: 'No ganó el primer premio, pero descubrió que lo más importante era confiar en sí misma y disfrutar del arte.', hy: 'Նա չշահեց առաջին մրցանակը, բայց բացահայտեց, որ ամենակարևորն ինքն իրեն վստահելն ու արվեստից հաճույք ստանալն է։' },
+    ],
+    textEs:
+      'Sofía siempre había soñado con participar en una exposición de pintura. Aunque al principio tenía miedo de mostrar sus dibujos, su profesora la animó a intentarlo. Después de varios días de trabajo, presentó un paisaje lleno de colores. No ganó el primer premio, pero descubrió que lo más importante era confiar en sí misma y disfrutar del arte.',
+    textHy:
+      'Սոֆիան միշտ երազել էր մասնակցել նկարչական ցուցահանդեսի։ Թեև սկզբում վախենում էր ցույց տալ իր նկարները, ուսուցչուհին քաջալերեց նրան փորձել։ Մի քանի օր աշխատելուց հետո նա ներկայացրեց գույներով լի բնանկար։ Նա չշահեց առաջին մրցանակը, բայց բացահայտեց, որ ամենակարևորն ինքն իրեն վստահելն ու արվեստից հաճույք ստանալն է։',
+    guideQuestions: [
+      { es: '1. ¿Qué quería hacer Sofía?', hy: 'Ի՞նչ էր ցանկանում անել Սոֆիան։' },
+      { es: '2. ¿Qué dificultad tenía?', hy: 'Ի՞նչ դժվարություն ուներ։' },
+      { es: '3. ¿Quién la ayudó?', hy: 'Ո՞վ օգնեց նրան։' },
+      { es: '4. ¿Qué aprendió al final?', hy: 'Ի՞նչ սովորեց վերջում։' },
+    ],
+    modelEs:
+      'El texto cuenta la historia de Sofía, una niña que tenía miedo de mostrar sus dibujos. Con la ayuda de su profesora, consiguió participar en una exposición y aprendió a confiar en sí misma.',
+    modelHy:
+      'Տեքստը պատմում է Սոֆիայի մասին, որը վախենում էր ցուցադրել իր նկարները։ Ուսուցչուհու օգնությամբ նա կարողացավ մասնակցել ցուցահանդեսին և սովորեց հավատալ սեփական ուժերին։',
+  },
+  ex5Figuras: [
+    {
+      id: 'e5_1',
+      es: '1. El sol nos saludó al comenzar el día.',
+      hy: 'Արևը ողջունեց մեզ օրվա սկզբում։',
+      options: [
+        { es: 'Metáfora', hy: 'Փոխաբերություն' },
+        { es: 'Personificación', hy: 'Անձնավորում' },
+        { es: 'Hipérbole', hy: 'Չափազանցություն' },
+      ],
+      correct: 1,
+      justEs: 'Es una personificación porque el sol realiza una acción humana: saludar.',
+      justHy: 'Անձնավորում է, որովհետև արևին վերագրվում է մարդու գործողություն՝ ողջունելը։',
+    },
+    {
+      id: 'e5_2',
+      es: '2. Te he llamado un millón de veces.',
+      hy: 'Ես քեզ միլիոն անգամ եմ զանգել։',
+      options: [
+        { es: 'Hipérbole', hy: 'Չափազանցություն' },
+        { es: 'Ironía', hy: 'Հեգնանք' },
+        { es: 'Anáfora', hy: 'Կրկնություն' },
+      ],
+      correct: 0,
+      justEs: 'Es una hipérbole porque exagera la cantidad de llamadas.',
+      justHy: 'Չափազանցություն է, որովհետև զանգերի քանակը չափազանցված է։',
+    },
+    {
+      id: 'e5_3',
+      es: '3. Aquí soñamos, aquí aprendemos, aquí crecemos.',
+      hy: 'Այստեղ երազում ենք, այստեղ սովորում ենք, այստեղ մեծանում ենք։',
+      options: [
+        { es: 'Metáfora', hy: 'Փոխաբերություն' },
+        { es: 'Anáfora', hy: 'Սկզբնակի կրկնություն' },
+        { es: 'Hipérbaton', hy: 'Շրջադասություն' },
+      ],
+      correct: 1,
+      justEs: 'Es una anáfora porque se repite la palabra «aquí» al principio de varias expresiones.',
+      justHy: 'Կրկնություն է, որովհետև «aquí» բառը կրկնվում է մի քանի արտահայտությունների սկզբում։',
+    },
+    {
+      id: 'e5_4',
+      es: '4. Tus ojos son dos estrellas.',
+      hy: 'Քո աչքերը երկու աստղ են։',
+      options: [
+        { es: 'Personificación', hy: 'Անձնավորում' },
+        { es: 'Metáfora', hy: 'Փոխաբերություն' },
+        { es: 'Ironía', hy: 'Հեգնանք' },
+      ],
+      correct: 1,
+      justEs: 'Es una metáfora porque compara los ojos con estrellas sin utilizar la palabra «como».',
+      justHy: 'Փոխաբերություն է, որովհետև աչքերը ներկայացվում են որպես աստղեր՝ առանց «ինչպես» բառի։',
+    },
+    {
+      id: 'e5_5',
+      es: '5. ¡Qué limpio está todo! —dijo mamá al ver la habitación desordenada.',
+      hy: '— Ի՜նչ մաքուր է ամեն ինչ,— ասաց մայրիկը՝ տեսնելով թափթփված սենյակը։',
+      options: [
+        { es: 'Ironía', hy: 'Հեգնանք' },
+        { es: 'Anáfora', hy: 'Կրկնություն' },
+        { es: 'Hipérbole', hy: 'Չափազանցություն' },
+      ],
+      correct: 0,
+      justEs: 'Es una ironía porque se dice lo contrario de lo que realmente se quiere expresar.',
+      justHy: 'Հեգնանք է, որովհետև ասվում է իրականում նկատի ունեցածի հակառակը։',
+    },
+    {
+      id: 'e5_6',
+      es: '6. A su hermana una carta escribió Pablo.',
+      hy: 'Իր քրոջը մի նամակ գրեց Պաբլոն։',
+      options: [
+        { es: 'Hipérbaton', hy: 'Շրջադասություն' },
+        { es: 'Personificación', hy: 'Անձնավորում' },
+        { es: 'Metáfora', hy: 'Փոխաբերություն' },
+      ],
+      correct: 0,
+      justEs: 'Es un hipérbaton porque cambia el orden habitual de las palabras.',
+      justHy: 'Շրջադասություն է, որովհետև բառերի սովորական հերթականությունը փոխված է։',
+    },
+    {
+      id: 'e5_7',
+      es: '7. El viento susurraba entre los árboles.',
+      hy: 'Քամին շշնջում էր ծառերի մեջ։',
+      options: [
+        { es: 'Personificación', hy: 'Անձնավորում' },
+        { es: 'Hipérbaton', hy: 'Շրջադասություն' },
+        { es: 'Anáfora', hy: 'Կրկնություն' },
+      ],
+      correct: 0,
+      justEs: 'Es una personificación porque el viento realiza una acción humana: susurrar.',
+      justHy: 'Անձնավորում է, որովհետև քամուն վերագրվում է մարդու գործողություն՝ շշնջալը։',
+    },
+    {
+      id: 'e5_8',
+      es: '8. Tengo tanta hambre que podría comerme un elefante.',
+      hy: 'Այնքան սոված եմ, որ մի փիղ կարող եմ ուտել։',
+      options: [
+        { es: 'Metáfora', hy: 'Փոխաբերություն' },
+        { es: 'Hipérbole', hy: 'Չափազանցություն' },
+        { es: 'Ironía', hy: 'Հեգնանք' },
+      ],
+      correct: 1,
+      justEs: 'Es una hipérbole porque exagera muchísimo el hambre.',
+      justHy: 'Չափազանցություն է, որովհետև սովի զգացողությունը չափազանցված է։',
+    },
+  ],
+  ex6Generos: [
+    {
+      id: 'e6_1',
+      es: '1. Una niña encontró una carta misteriosa y decidió buscar a su dueño.',
+      hy: 'Մի աղջիկ խորհրդավոր նամակ գտավ և որոշեց գտնել դրա տիրոջը։',
+      correct: 'Narrativo',
+      justEs: 'Narrativo, porque se cuenta una historia con personajes y acontecimientos.',
+      justHy: 'Պատմողական, որովհետև ներկայացվում է պատմություն՝ հերոսներով և իրադարձություններով։',
+    },
+    {
+      id: 'e6_2',
+      es: '2. ¡Qué hermosa es la primavera! Mi corazón canta de alegría.',
+      hy: 'Ի՜նչ գեղեցիկ է գարունը։ Իմ սիրտը ուրախությունից երգում է։',
+      correct: 'Lírico',
+      justEs: 'Lírico, porque expresa sentimientos y emociones.',
+      justHy: 'Քնարական, որովհետև արտահայտում է զգացմունքներ և հույզեր։',
+    },
+    {
+      id: 'e6_3',
+      es: '3. MARTA: ¿Vienes al parque? LUIS: Sí, vamos juntos.',
+      hy: 'ՄԱՐՏԱ․ Գալի՞ս ես այգի։ ԼՈՒԻՍ․ Այո՛, գնանք միասին։',
+      correct: 'Dramático',
+      justEs: 'Dramático, porque está escrito como un diálogo entre personajes, propio de una escena teatral.',
+      justHy: 'Թատերգական, որովհետև գրված է կերպարների երկխոսության ձևով՝ ինչպես թատերական տեսարանում։',
+    },
+    {
+      id: 'e6_4',
+      es: '4. El abuelo contó a sus nietos una historia de su juventud.',
+      hy: 'Պապիկն իր թոռներին պատմեց իր երիտասարդության մի պատմություն։',
+      correct: 'Narrativo',
+      justEs: 'Narrativo, porque se relata una historia.',
+      justHy: 'Պատմողական, որովհետև պատմություն է ներկայացվում։',
+    },
+    {
+      id: 'e6_5',
+      es: '5. Mi alma es un jardín lleno de recuerdos.',
+      hy: 'Իմ հոգին հուշերով լի պարտեզ է։',
+      correct: 'Lírico',
+      justEs: 'Lírico, porque utiliza un lenguaje poético para expresar sentimientos.',
+      justHy: 'Քնարական, որովհետև զգացմունքներն արտահայտվում են բանաստեղծական լեզվով։',
+    },
+  ],
+  ex7CultaPopular: [
+    {
+      id: 'e7_1',
+      es: '1. Un poema escrito por un autor conocido y publicado en un libro.',
+      hy: 'Հայտնի հեղինակի գրած և գրքում հրատարակված բանաստեղծություն։',
+      correct: 'Culta',
+      justEs: 'Literatura culta, porque tiene un autor conocido.',
+      justHy: 'Հեղինակային գրականություն, որովհետև ունի հայտնի հեղինակ։',
+    },
+    {
+      id: 'e7_2',
+      es: '2. Una canción tradicional que se transmite de generación en generación.',
+      hy: 'Ավանդական երգ, որը փոխանցվում է սերնդեսերունդ։',
+      correct: 'Popular',
+      justEs: 'Literatura popular, porque se transmite de generación en generación.',
+      justHy: 'Ժողովրդական գրականություն, որովհետև փոխանցվում է սերնդեսերունդ։',
+    },
+    {
+      id: 'e7_3',
+      es: '3. Una novela escrita por una escritora contemporánea.',
+      hy: 'Ժամանակակից գրողի գրած վեպ։',
+      correct: 'Culta',
+      justEs: 'Literatura culta, porque es una obra escrita por una autora identificada.',
+      justHy: 'Հեղինակային գրականություն, որովհետև ունի որոշակի հեղինակ։',
+    },
+    {
+      id: 'e7_4',
+      es: '4. Un cuento tradicional que ha pasado oralmente de abuelos a nietos.',
+      hy: 'Ավանդական հեքիաթ, որը բանավոր փոխանցվել է պապիկ-տատիկներից թոռներին։',
+      correct: 'Popular',
+      justEs: 'Literatura popular, porque se ha transmitido oralmente a lo largo del tiempo.',
+      justHy: 'Ժողովրդական գրականություն, որովհետև փոխանցվում է բանավոր ձևով։',
+    },
+    {
+      id: 'e7_5',
+      es: '5. Una obra de teatro escrita por un dramaturgo conocido.',
+      hy: 'Հայտնի թատերագրի գրած թատերական պիես։',
+      correct: 'Culta',
+      justEs: 'Literatura culta, porque tiene un dramaturgo conocido.',
+      justHy: 'Հեղինակային գրականություն, որովհետև ունի հայտնի հեղինակ։',
+    },
+  ],
+  ex8FillBlanks: {
+    wordBank: [
+      { es: 'narrador', hy: 'պատմող' },
+      { es: 'metáfora', hy: 'փոխաբերություն' },
+      { es: 'personajes', hy: 'կերպարներ' },
+      { es: 'sentimientos', hy: 'զգացմունքներ' },
+      { es: 'autor', hy: 'հեղինակ' },
+      { es: 'comparación', hy: 'համեմատություն' },
+    ],
+    items: [
+      {
+        id: 'fb1',
+        before: '1. El texto pertenece al género narrativo porque hay un',
+        after: 'que cuenta los hechos.',
+        answer: 'narrador',
+        fullEs: 'El texto pertenece al género narrativo porque hay un narrador que cuenta los hechos.',
+        hy: 'Տեքստը պատկանում է պատմողական սեռին, որովհետև կա պատմող, որը ներկայացնում է իրադարձությունները։',
+      },
+      {
+        id: 'fb2',
+        before: '2. Es literatura culta porque tiene un',
+        after: 'conocido.',
+        answer: 'autor',
+        fullEs: 'Es literatura culta porque tiene un autor conocido.',
+        hy: 'Հեղինակային գրականություն է, որովհետև ունի հայտնի հեղինակ։',
+      },
+      {
+        id: 'fb3',
+        before: '3. La expresión «Tus ojos son estrellas» es una',
+        after: '.',
+        answer: 'metáfora',
+        fullEs: '«Tus ojos son estrellas» es una metáfora.',
+        hy: '«Քո աչքերը աստղեր են» արտահայտությունը փոխաբերություն է։',
+      },
+      {
+        id: 'fb4',
+        before: '4. El género lírico expresa principalmente',
+        after: '.',
+        answer: 'sentimientos',
+        fullEs: 'El género lírico expresa principalmente sentimientos.',
+        hy: 'Քնարական սեռը հիմնականում արտահայտում է զգացմունքներ։',
+      },
+      {
+        id: 'fb5',
+        before: '5. En la narración aparecen',
+        after: 'que participan en la historia.',
+        answer: 'personajes',
+        fullEs: 'En la narración aparecen personajes que participan en la historia.',
+        hy: 'Պատմության մեջ կան կերպարներ, որոնք մասնակցում են իրադարձություններին։',
+      },
+      {
+        id: 'fb6',
+        before: '6. «Corre como el viento» es una',
+        after: '.',
+        answer: 'comparación',
+        fullEs: '«Corre como el viento» es una comparación.',
+        hy: '«Վազում է քամու պես» արտահայտությունը համեմատություն է։',
+      },
+    ],
+  },
+  ex9HardQuestions: [
+    {
+      id: 'hq1',
+      qEs: '1. ¿Por qué una novela pertenece al género narrativo?',
+      qHy: 'Ինչո՞ւ է վեպը պատկանում պատմողական սեռին։',
+      aEs: 'Una novela pertenece al género narrativo porque cuenta una historia con personajes, acontecimientos y un narrador.',
+      aHy: 'Որովհետև ներկայացնում է պատմություն՝ հերոսներով, պատմողով և տարբեր իրադարձություններով։',
+    },
+    {
+      id: 'hq2',
+      qEs: '2. ¿Por qué «El sol sonrió» es una personificación?',
+      qHy: 'Ինչո՞ւ է «Արևը ժպտաց» արտահայտությունն անձնավորում։',
+      aEs: 'Es una personificación porque el sol realiza una acción humana: sonreír.',
+      aHy: 'Որովհետև արևին վերագրվում է մարդու գործողություն՝ ժպտալը։',
+    },
+    {
+      id: 'hq3',
+      qEs: '3. ¿Qué diferencia hay entre literatura culta y literatura popular?',
+      qHy: 'Ի՞նչ տարբերություն կա հեղինակային և ժողովրդական գրականության միջև։',
+      aEs: 'La literatura culta tiene un autor conocido, mientras que la popular suele transmitirse de generación en generación y puede ser anónima.',
+      aHy: 'Հեղինակային գրականությունն ունի հայտնի հեղինակ, իսկ ժողովրդական գրականությունը սովորաբար փոխանցվում է սերնդեսերունդ և կարող է լինել անհեղինակ։',
+    },
+    {
+      id: 'hq4',
+      qEs: '4. ¿Qué significa que un texto tiene lenguaje literario?',
+      qHy: 'Ի՞նչ է նշանակում, որ տեքստն ունի գեղարվեստական լեզու։',
+      aEs: 'Significa que utiliza palabras y expresiones de forma artística y expresiva, por ejemplo, con metáforas o personificaciones, para transmitir emociones o embellecer el texto.',
+      aHy: 'Նշանակում է, որ օգտագործվում են գեղարվեստական բառեր և արտահայտություններ՝ զգացմունքներ փոխանցելու կամ տեքստը գեղեցկացնելու համար։',
+    },
+    {
+      id: 'hq5',
+      qEs: '5. ¿Por qué «Te he esperado mil años» es una hipérbole?',
+      qHy: 'Ինչո՞ւ է «Ես քեզ հազար տարի սպասել եմ» արտահայտությունը չափազանցություն։',
+      aEs: 'Es una hipérbole porque exagera muchísimo el tiempo de espera.',
+      aHy: 'Որովհետև սպասելու ժամանակը չափազանցված է։',
+    },
+  ],
+  templates: [
+    { ctxEs: 'Resumen del texto', ctxHy: 'Տեքստի ամփոփում (Resumen)', es: 'El texto cuenta la historia de…', hy: 'Տեքստը պատմում է ...-ի մասին։' },
+    { ctxEs: 'Protagonista', ctxHy: 'Գլխավոր հերոսը', es: 'El protagonista es…', hy: 'Գլխավոր հերոսը ... է։' },
+    { ctxEs: 'Orden de los hechos', ctxHy: 'Իրադարձությունների հաջորդականություն', es: 'Al principio…, después… y finalmente…', hy: 'Սկզբում..., հետո..., և վերջապես...։' },
+    { ctxEs: 'Literatura culta o popular', ctxHy: 'Հեղինակային թե ժողովրդական', es: 'Es literatura… porque…', hy: 'Սա ... գրականություն է, որովհետև...' },
+    { ctxEs: 'Explicar una expresión', ctxHy: 'Արտահայտության բացատրություն', es: 'Esta expresión significa que…', hy: 'Այս արտահայտությունը նշանակում է, որ...' },
+    { ctxEs: 'Figura literaria', ctxHy: 'Գեղարվեստական միջոց', es: 'Es una metáfora porque…', hy: 'Սա փոխաբերություն է, որովհետև...' },
+    { ctxEs: 'Género literario', ctxHy: 'Գրական սեռ', es: 'Pertenece al género narrativo porque…', hy: 'Պատկանում է պատմողական սեռին, որովհետև...' },
+    { ctxEs: 'Lenguaje literario', ctxHy: 'Գեղարվեստական լեզու', es: 'Sí, porque el autor utiliza…', hy: 'Այո՛, որովհետև հեղինակը կիրառում է...' },
+    { ctxEs: 'Ejemplo del texto', ctxHy: 'Օրինակ տեքստից', es: 'Por ejemplo, en el texto aparece…', hy: 'Օրինակ՝ տեքստում հանդիպում է...' },
+  ],
+};
+
+// ============================================================================
+// MODULE 3: TEORÍA COMPLETA — 1.º ESO
+// ============================================================================
+export const THEORY = {
+  generos: [
+    {
+      es: 'Lírico',
+      defEs: 'Expresa sentimientos y emociones. Suele utilizar el verso.',
+      hy: 'Քնարական սեռ․ արտահայտում է զգացմունքներ, հաճախ՝ չափածո։',
+    },
+    {
+      es: 'Narrativo',
+      defEs: 'Un narrador cuenta una historia con personajes y acontecimientos.',
+      hy: 'Պատմողական սեռ․ պատմողը ներկայացնում է հերոսներով և իրադարձություններով պատմություն։',
+    },
+    {
+      es: 'Dramático o teatral',
+      defEs: 'Una historia se representa en un escenario mediante diálogos y actuaciones.',
+      hy: 'Թատերգական սեռ․ պատմությունը ներկայացվում է բեմում՝ երկխոսությունների և դերասանական խաղի միջոցով։',
+    },
+  ],
+  generosNoteEs:
+    'Importante: El género narrativo suele escribirse en prosa, pero también puede utilizar el verso. El género lírico también puede expresarse mediante prosa poética.',
+  generosNoteHy:
+    'Կարևոր է․ պատմողական սեռը սովորաբար գրվում է արձակ, բայց կարող է լինել նաև չափածո։ Քնարական սեռը կարող է արտահայտվել նաև բանաստեղծական արձակով։',
+  formas: [
+    { termEs: 'Literatura culta', defEs: 'Tiene un autor conocido y suele difundirse por escrito.', hy: 'Հեղինակային գրականություն՝ հայտնի հեղինակով։' },
+    { termEs: 'Literatura popular', defEs: 'Suele transmitirse oralmente de generación en generación.', hy: 'Ժողովրդական գրականություն՝ փոխանցվում է սերնդեսերունդ։' },
+    { termEs: 'Lenguaje literario', defEs: 'Utiliza recursos expresivos y artísticos.', hy: 'Գեղարվեստական լեզու՝ պատկերավոր արտահայտություններով։' },
+    { termEs: 'Prosa', defEs: 'Se escribe en oraciones y párrafos, sin una métrica fija.', hy: 'Արձակ՝ նախադասություններով և պարբերություններով։' },
+    { termEs: 'Verso', defEs: 'Puede tener ritmo, medida y rima.', hy: 'Չափածո՝ կարող է ունենալ ռիթմ, վանկաչափ և հանգ։' },
+    { termEs: 'Romance', defEs: 'Poema de versos octosílabos, con rima asonante en los pares y versos impares sueltos.', hy: 'Ռոմանս՝ ութվանկանի տողեր, զույգ տողերի ձայնավորային հանգավորում։' },
+    { termEs: 'Leyenda', defEs: 'Relato que combina elementos reales y fantásticos.', hy: 'Ավանդազրույց՝ իրական և երևակայական տարրերով։' },
+    { termEs: 'Mito', defEs: 'Relato tradicional con dioses o seres sobrenaturales que explica aspectos del mundo.', hy: 'Առասպել՝ աստվածների կամ գերբնական էակների մասնակցությամբ։' },
+    { termEs: 'Cuento', defEs: 'Narración breve, normalmente con pocos personajes y una trama sencilla.', hy: 'Պատմվածք՝ կարճ պատմություն, սովորաբար քիչ հերոսներով։' },
+  ],
+  figuras: [
+    { nameEs: 'Aliteración', level: 'Fónico', exEs: 'Su suave susurro sonaba.', exHy: 'Նրա մեղմ շշուկը հնչում էր։', defEs: 'Repetición de sonidos parecidos en varias palabras cercanas.', hy: 'Նման հնչյունների կրկնություն։' },
+    { nameEs: 'Onomatopeya', level: 'Fónico', exEs: 'Tic-tac, tic-tac.', exHy: 'Տիկ-տակ, տիկ-տակ։', defEs: 'Palabra o expresión que imita un sonido real.', hy: 'Ձայնանմանություն։' },
+    { nameEs: 'Paronomasia', level: 'Fónico', exEs: 'Casa / cosa.', exHy: 'Տուն / իր։', defEs: 'Uso de palabras de sonido muy parecido pero significado diferente.', hy: 'Նմանահունչ բառերի գործածություն։' },
+    { nameEs: 'Epanadiplosis', level: 'Fónico', exEs: 'Verde, todo era verde.', exHy: 'Կանաչ, ամեն ինչ կանաչ էր։', defEs: 'Repetición de la misma palabra al principio y al final de un enunciado o verso.', hy: 'Նույն բառը սկզբում և վերջում։' },
+    { nameEs: 'Hipérbaton', level: 'Morfosintáctico', exEs: 'Un libro encontró Laura.', exHy: 'Մի գիրք գտավ Լաուրան։', defEs: 'Alteración del orden habitual de las palabras en la oración.', hy: 'Բառերի սովորական հերթականության փոփոխություն։' },
+    { nameEs: 'Anáfora', level: 'Morfosintáctico', exEs: 'Quiero vivir, quiero aprender.', exHy: 'Ուզում եմ ապրել, ուզում եմ սովորել։', defEs: 'Repetición de una o varias palabras al principio de versos o frases.', hy: 'Բառերի կրկնություն հատվածների սկզբում։' },
+    { nameEs: 'Asíndeton', level: 'Morfosintáctico', exEs: 'Corre, salta, ríe.', exHy: 'Վազում է, ցատկում է, ծիծաղում է։', defEs: 'Omisión de conjunciones entre palabras o acciones para dar rapidez.', hy: 'Շաղկապների բացթողում։' },
+    { nameEs: 'Polisíndeton', level: 'Morfosintáctico', exEs: 'Y canta y ríe y baila.', exHy: 'Եվ երգում է, և ծիծաղում է, և պարում է։', defEs: 'Repetición expresiva de conjunciones (como «y»).', hy: 'Շաղկապների կրկնություն։' },
+    { nameEs: 'Enumeración', level: 'Morfosintáctico', exEs: 'Libros, lápices, reglas y cuadernos.', exHy: 'Գրքեր, մատիտներ, քանոններ և տետրեր։', defEs: 'Serie ordenada de elementos seguidos uno tras otro.', hy: 'Թվարկում։' },
+    { nameEs: 'Pleonasmo', level: 'Morfosintáctico', exEs: 'Lo vi con mis propios ojos.', exHy: 'Ես դա իմ սեփական աչքերով տեսա։', defEs: 'Uso de palabras redundantes para reforzar una idea.', hy: 'Ավելորդ, իմաստով կրկնվող բառերի գործածություն։' },
+    { nameEs: 'Metáfora', level: 'Semántico', exEs: 'Tus ojos son estrellas.', exHy: 'Քո աչքերը աստղեր են։', defEs: 'Identificación figurada de dos realidades sin usar «como».', hy: 'Փոխաբերություն։' },
+    { nameEs: 'Personificación', level: 'Semántico', exEs: 'El viento canta.', exHy: 'Քամին երգում է։', defEs: 'Atribución de cualidades o acciones humanas a seres u objetos.', hy: 'Անձնավորում։' },
+    { nameEs: 'Hipérbole', level: 'Semántico', exEs: 'Te esperé mil años.', exHy: 'Ես քեզ հազար տարի սպասեցի։', defEs: 'Exageración expresiva de la realidad.', hy: 'Չափազանցություն։' },
+    { nameEs: 'Ironía', level: 'Semántico', exEs: '¡Qué puntual! (Llegó tarde).', exHy: 'Ի՜նչ ճշտապահ է (ուշացել է)։', defEs: 'Expresar lo contrario de lo que realmente se piensa.', hy: 'Հեգնանք։' },
+  ],
+  epanadiplosisNoteEs:
+    'La epanadiplosis aparece en el apartado de repeticiones fónicas de los apuntes. En otros manuales también puede clasificarse entre las figuras de repetición morfosintácticas.',
+  epanadiplosisNoteHy:
+    'Epanadiplosis-ը դպրոցական տետրում նշված է հնչյունական կրկնությունների բաժնում, սակայն այլ դասագրքերում կարող է դասվել նաև ձևաբանական-շարահյուսական կրկնությունների շարքին։',
+  funciones: [
+    { nameEs: 'Referencial', exEs: 'Hoy es viernes.', exHy: 'Այսօր ուրբաթ է։', descEs: 'Transmite información objetiva sobre la realidad.', descHy: 'Փոխանցում է օբյեկտիվ տեղեկություն։' },
+    { nameEs: 'Expresiva', exEs: '¡Estoy muy contento!', exHy: 'Ես շատ ուրախ եմ։', descEs: 'Expresa los sentimientos y emociones del hablante.', descHy: 'Արտահայտում է խոսողի զգացմունքները։' },
+    { nameEs: 'Apelativa', exEs: 'Abre el libro, por favor.', exHy: 'Խնդրում եմ, բացի՛ր գիրքը։', descEs: 'Influye en el receptor mediante una petición o una orden.', descHy: 'Ազդում է լսողի վրա՝ խնդրանք կամ հրաման։' },
+    { nameEs: 'Fática', exEs: '¿Me escuchas?', exHy: 'Ինձ լսո՞ւմ ես։', descEs: 'Comprueba, inicia o mantiene el contacto comunicativo.', descHy: 'Ստուգում կամ պահպանում է կապը։' },
+    { nameEs: 'Metalingüística', exEs: '«Casa» es un sustantivo.', exHy: '«Casa»-ն գոյական է։', descEs: 'Utiliza la lengua para hablar sobre la propia lengua.', descHy: 'Խոսում է հենց լեզվի մասին։' },
+    { nameEs: 'Poética', exEs: 'La luna viste de plata el cielo.', exHy: 'Լուսինն արծաթով է հագցնում երկինքը։', descEs: 'Destaca la forma bella y artística del mensaje.', descHy: 'Կարևորում է խոսքի գեղարվեստական ձևը։' },
+  ],
+  modalidades: [
+    { nameEs: 'Enunciativa afirmativa', exEs: 'Marta estudia español.', exHy: 'Մարտան իսպաներեն է սովորում։', descEs: 'Afirma una información o un hecho.', descHy: 'Հաստատում է տեղեկություն։' },
+    { nameEs: 'Enunciativa negativa', exEs: 'Marta no estudia francés.', exHy: 'Մարտան ֆրանսերեն չի սովորում։', descEs: 'Niega una información o un hecho.', descHy: 'Ժխտում է տեղեկություն։' },
+    { nameEs: 'Interrogativa', exEs: '¿Dónde está Marta?', exHy: 'Որտե՞ղ է Մարտան։', descEs: 'Formula una pregunta.', descHy: 'Հարց է տալիս։' },
+    { nameEs: 'Exclamativa', exEs: '¡Qué bonito!', exHy: 'Ի՜նչ գեղեցիկ է։', descEs: 'Expresa una emoción o sentimiento intenso.', descHy: 'Արտահայտում է ուժեղ զգացմունք։' },
+    { nameEs: 'Exhortativa', exEs: 'Cierra la puerta.', exHy: 'Փակի՛ր դուռը։', descEs: 'Expresa una orden, una petición o un consejo.', descHy: 'Հրաման, խնդրանք կամ խորհուրդ։' },
+    { nameEs: 'Dubitativa', exEs: 'Quizás venga mañana.', exHy: 'Գուցե վաղը գա։', descEs: 'Expresa duda o posibilidad.', descHy: 'Արտահայտում է կասկած կամ հավանականություն։' },
+    { nameEs: 'Desiderativa', exEs: 'Ojalá apruebe el examen.', exHy: 'Երանի թե հանձնեմ քննությունը։', descEs: 'Expresa un deseo.', descHy: 'Արտահայտում է ցանկություն։' },
+  ],
+  categorias: [
+    { nameEs: 'Sustantivo', defEs: 'Nombra personas, animales, cosas o ideas.', hy: 'Գոյական — անվանում է անձեր, կենդանիներ, իրեր կամ գաղափարներ։' },
+    { nameEs: 'Pronombre', defEs: 'Sustituye o representa a un sustantivo o grupo nominal.', hy: 'Դերանուն — փոխարինում է գոյականին։' },
+    { nameEs: 'Adjetivo', defEs: 'Expresa cualidades o características.', hy: 'Ածական — ցույց է տալիս հատկանիշներ։' },
+    { nameEs: 'Verbo', defEs: 'Expresa acciones, estados o procesos.', hy: 'Բայ — արտահայտում է գործողություն կամ վիճակ։' },
+    { nameEs: 'Adverbio', defEs: 'Modifica un verbo, adjetivo u otro adverbio.', hy: 'Մակբայ — լրացնում է բային, ածականին կամ այլ մակբայի։' },
+    { nameEs: 'Determinante', defEs: 'Acompaña al sustantivo y concreta su referencia.', hy: 'Որոշիչ — ուղեկցում է գոյականին և հստակեցնում այն։' },
+    { nameEs: 'Artículo', defEs: 'Tipo de determinante: el, la, los, las, un, una…', hy: 'Հոդ — որոշիչի տեսակ (el, la, los, las, un, una…)։' },
+    { nameEs: 'Preposición', defEs: 'Relaciona palabras: a, de, en, con…', hy: 'Նախդիր — կապում է բառերը (a, de, en, con…)։' },
+    { nameEs: 'Conjunción', defEs: 'Une palabras u oraciones: y, pero, porque…', hy: 'Շաղկապ — միավորում է բառեր կամ նախադասություններ (y, pero, porque…)։' },
+    { nameEs: 'Interjección', defEs: 'Expresa reacciones o emociones: ¡ay!, ¡eh!', hy: 'Ձայնարկություն — արտահայտում է զգացմունք կամ արձագանք (¡ay!, ¡eh!)։' },
+  ],
+  studyPlan: [
+    {
+      stepEs: 'Sesión 1',
+      stepHy: 'Պարապմունք 1',
+      titleEs: 'Comprensión lectora y Resumen',
+      titleHy: 'Տեքստի ընկալում և ամփոփում',
+      descEs: 'Leer el texto, escribir un resumen de 2 o 3 frases, explicar las expresiones subrayadas y justificar el género literario.',
+      descHy: 'Կարդալ տեքստը, կազմել 2–3 նախադասությունից բաղկացած Resumen, բացատրել ընդգծված արտահայտությունները և հիմնավորել գրական սեռը։',
+    },
+    {
+      stepEs: 'Sesión 2',
+      stepHy: 'Պարապմունք 2',
+      titleEs: 'Literatura y figuras literarias',
+      titleHy: 'Գրականություն և գեղարվեստական միջոցներ',
+      descEs: 'Repasar lírica, narrativa, teatro, literatura culta y popular, el romance y las 14 figuras literarias.',
+      descHy: 'Կրկնել lírica, narrativa, teatro, literatura culta/popular, romance և բոլոր 14 գեղարվեստական միջոցները։',
+    },
+    {
+      stepEs: 'Sesión 3',
+      stepHy: 'Պարապմունք 3',
+      titleEs: 'Gramática y examen completo',
+      titleHy: 'Քերականություն և ամբողջական քննություն',
+      descEs: 'Repasar funciones del lenguaje, modalidades oracionales, elementos de la comunicación y categorías gramaticales. Después, hacer el examen sin pistas.',
+      descHy: 'Կրկնել funciones del lenguaje, modalidades oracionales, elementos de la comunicación և categorías gramaticales։ Այնուհետև անցնել թեստը առանց հուշումների։',
+    },
+  ],
+};
+
+// ============================================================================
+// MODULE 4: GRAN SIMULACRO DE EXAMEN — 80 PUNTOS (PARTES 1–10)
+// ============================================================================
+export const BIG_EXAM = {
+  titleEs: 'Simulacro de examen — 1.º ESO · 80 puntos',
+  titleHy: 'Ընդլայնված քննության մոդել — 1.º ESO · 80 միավոր',
+  metaEs: '10 partes · 80 puntos · Haz clic en cualquier texto en español para ver la traducción al armenio',
+  metaHy: '10 բաժին · 80 միավոր · Հարցերը իսպաներեն, թարգմանությունը սեղմումով',
+  part1: {
+    titleEs: 'La caja de las buenas noticias',
+    titleHy: 'Բարի լուրերի տուփը',
+    paragraphs: [
+      [
+        {
+          es: 'Una mañana de octubre, Martín encontró en el pasillo del colegio una caja de cartón llena de cartas de colores.',
+          hy: 'Հոկտեմբերյան մի առավոտ Մարտինը դպրոցի միջանցքում գտավ գունավոր նամակներով լի ստվարաթղթե տուփ։',
+        },
+        {
+          es: 'En la tapa alguien había escrito: «Para quien necesite una buena noticia».',
+          hy: 'Կափարիչի վրա ինչ-որ մեկը գրել էր․ «Նրա համար, ով բարի լուրի կարիք ունի»։',
+        },
+      ],
+      [
+        {
+          es: 'En lugar de abrir las cartas, Martín llevó la caja a la biblioteca.',
+          hy: 'Նամակները բացելու փոխարեն Մարտինը տուփը տարավ գրադարան։',
+        },
+        {
+          es: 'Allí, la profesora Elena le explicó que algunos alumnos habían preparado mensajes para animar a sus compañeros.',
+          hy: 'Այնտեղ ուսուցչուհի Էլենան նրան բացատրեց, որ որոշ աշակերտներ ուղերձներ են պատրաստել՝ իրենց դասընկերներին քաջալերելու համար։',
+        },
+      ],
+      [
+        {
+          es: 'Martín recordó a Julia, una niña que había llegado al colegio hacía pocos días y que todavía no tenía muchos amigos.',
+          hy: 'Մարտինը հիշեց Խուլիային՝ մի աղջկա, որը մի քանի օր առաջ էր եկել դպրոց և դեռ շատ ընկերներ չուներ։',
+        },
+      ],
+      [
+        {
+          es: 'Durante el recreo, Martín invitó a Julia a elegir una carta.',
+          hy: 'Դասամիջոցին Մարտինը Խուլիային առաջարկեց ընտրել մի նամակ։',
+        },
+        {
+          es: 'Ella abrió una de color azul y leyó: «Cada comienzo trae una nueva oportunidad».',
+          hy: 'Նա բացեց կապույտ նամակը և կարդաց․ «Յուրաքանչյուր սկիզբ բերում է նոր հնարավորություն»։',
+        },
+        {
+          es: 'Aquellas palabras le hicieron sonreír.',
+          hy: 'Այդ խոսքերը ստիպեցին նրան ժպտալ։',
+        },
+      ],
+      [
+        {
+          es: 'Después, ambos decidieron escribir nuevos mensajes para otros compañeros.',
+          hy: 'Հետո երկուսն էլ որոշեցին նոր ուղերձներ գրել մյուս դասընկերների համար։',
+        },
+        {
+          es: 'Entre libros y risas, la biblioteca se convirtió en un refugio de alegría.',
+          hy: 'Գրքերի և ծիծաղի մեջ գրադարանը դարձավ ուրախության ապաստան։',
+          underline: 'un refugio de alegría',
+        },
+      ],
+      [
+        {
+          es: 'Al terminar las clases, Julia confesó que el colegio ya no le parecía tan desconocido.',
+          hy: 'Դասերի ավարտին Խուլիան խոստովանեց, որ դպրոցն այլևս այնքան անծանոթ չի թվում իրեն։',
+        },
+        {
+          es: 'Martín comprendió que la amabilidad es una llave que abre puertas y que unas pocas palabras pueden transformar un día difícil.',
+          hy: 'Մարտինը հասկացավ, որ բարությունը բանալի է, որը դռներ է բացում, և որ մի քանի բառը կարող է փոխել դժվար օրը։',
+          underline: 'la amabilidad es una llave que abre puertas',
+        },
+      ],
+      [
+        {
+          es: 'Desde entonces, cada viernes añadían nuevas cartas a la caja, con la esperanza de alegrar a otros estudiantes.',
+          hy: 'Այդ օրվանից ամեն ուրբաթ նրանք նոր նամակներ էին ավելացնում տուփում՝ մյուս աշակերտներին ուրախացնելու հույսով։',
+        },
+      ],
+    ],
+    questionsAF: [
+      {
+        letter: 'A',
+        points: '2 puntos',
+        qEs: 'Resume el texto con tus propias palabras.',
+        qHy: 'Ամփոփի՛ր տեքստը քո սեփական բառերով։',
+        aEs: 'El texto cuenta la historia de Martín, un niño que descubre una caja con mensajes positivos en su colegio. Decide compartir una carta con Julia, una compañera nueva que se siente sola. Finalmente, ambos empiezan a escribir mensajes para ayudar a otros estudiantes.',
+        aHy: 'Տեքստը պատմում է Մարտինի մասին, որը դպրոցում գտնում է դրական ուղերձներով տուփ։ Նա որոշում է դրանցից մեկը փոխանցել նոր աշակերտուհի Խուլիային։ Վերջում նրանք միասին սկսում են բարի ուղերձներ գրել մյուս աշակերտների համար։',
+      },
+      {
+        letter: 'B',
+        points: '2 puntos',
+        qEs: '¿Pertenece a la literatura culta o popular? Justifica tu respuesta.',
+        qHy: 'Պատկանո՞ւմ է հեղինակային, թե՞ ժողովրդական գրականությանը։ Հիմնավորի՛ր պատասխանդ։',
+        aEs: 'Pertenece a la literatura culta porque es una narración escrita por un autor identificado y no es un relato tradicional transmitido oralmente.',
+        aHy: 'Պատկանում է հեղինակային գրականությանը, որովհետև ստեղծվել է որոշակի հեղինակի կողմից և բանավոր փոխանցվող ժողովրդական պատմություն չէ։',
+      },
+      {
+        letter: 'C',
+        points: '2 puntos',
+        qEs: 'Explica con tus palabras las dos expresiones subrayadas.',
+        qHy: 'Քո բառերով բացատրի՛ր ընդգծված երկու արտահայտությունները։',
+        aParts: [
+          {
+            termEs: '1. «Un refugio de alegría»',
+            termHy: '1. «Ուրախության ապաստան»',
+            es: 'Significa que la biblioteca se convierte en un lugar donde los alumnos se sienten felices y tranquilos.',
+            hy: 'Գրադարանը դառնում է մի վայր, որտեղ աշակերտներն իրենց երջանիկ և հանգիստ են զգում։',
+          },
+          {
+            termEs: '2. «La amabilidad es una llave que abre puertas»',
+            termHy: '2. «Բարությունը բանալի է, որը դռներ է բացում»',
+            es: 'Significa que ser amable ayuda a crear nuevas amistades y oportunidades.',
+            hy: 'Բարությունը օգնում է նոր ընկերություններ և հնարավորություններ ստեղծել։',
+          },
+        ],
+      },
+      {
+        letter: 'D',
+        points: '2 puntos',
+        qEs: '¿Qué figura literaria aparece en las expresiones subrayadas? Justifica tu respuesta.',
+        qHy: 'Ի՞նչ գեղարվեստական միջոց կա ընդգծված արտահայտություններում։ Հիմնավորի՛ր պատասխանդ։',
+        aEs: 'Son metáforas porque se presenta la biblioteca como un refugio y la amabilidad como una llave, sin hacer una comparación literal.',
+        aHy: 'Դրանք փոխաբերություններ են․ գրադարանը ներկայացվում է որպես ապաստան, իսկ բարությունը՝ որպես բանալի։',
+      },
+      {
+        letter: 'E',
+        points: '2 puntos',
+        qEs: '¿A qué género literario pertenece el texto? Justifica tu respuesta con dos características.',
+        qHy: 'Ո՞ր գրական սեռին է պատկանում տեքստը։ Հիմնավորի՛ր երկու հատկանիշով։',
+        aEs: 'Pertenece al género narrativo porque un narrador en tercera persona cuenta una historia con personajes, como Martín y Julia, y una serie de acontecimientos.',
+        aHy: 'Պատմողական սեռ է, որովհետև երրորդ դեմքով պատմողը ներկայացնում է հերոսների և իրադարձությունների մասին պատմություն։',
+      },
+      {
+        letter: 'F',
+        points: '2 puntos',
+        qEs: '¿Tiene este texto lenguaje literario? Explica por qué y escribe un ejemplo.',
+        qHy: 'Այս տեքստն ունի՞ գեղարվեստական լեզու։ Բացատրի՛ր ինչու և գրի՛ր օրինակ։',
+        aEs: 'Sí, porque el autor utiliza expresiones artísticas y recursos literarios, como «la amabilidad es una llave que abre puertas», para transmitir ideas de forma imaginativa.',
+        aHy: 'Այո՛, որովհետև հեղինակը կիրառում է պատկերավոր արտահայտություններ, որոնք օգնում են մտքերը գեղարվեստորեն ներկայացնել։',
+      },
+    ],
+  },
+  part2Generos: [
+    {
+      id: 'p2_1',
+      es: '«La niña salió de casa temprano. Caminó hasta el parque y encontró a su mejor amiga junto a la fuente».',
+      hy: '«Աղջիկը վաղ դուրս եկավ տնից։ Քայլեց մինչև այգի և շատրվանի մոտ հանդիպեց իր լավագույն ընկերուհուն»։',
+      correct: 'Narrativo',
+      justEs: 'Porque un narrador cuenta acontecimientos protagonizados por personajes.',
+      justHy: 'Պատմողական սեռ, որովհետև կա պատմող, որը ներկայացնում է գործողություններ և հերոսներ։',
+    },
+    {
+      id: 'p2_2',
+      es: '«Mi corazón se llena de alegría cuando la primavera llega y las flores despiertan».',
+      hy: '«Իմ սիրտը լցվում է ուրախությամբ, երբ գարունը գալիս է և ծաղիկներն արթնանում են»։',
+      correct: 'Lírico',
+      justEs: 'Porque predominan los sentimientos y las emociones.',
+      justHy: 'Քնարական սեռ, որովհետև հիմնականում արտահայտվում են զգացմունքներ։',
+    },
+    {
+      id: 'p2_3',
+      es: '«MARTA: ¿Has encontrado el libro? — PABLO: Sí, estaba encima de la mesa. (Marta se acerca y sonríe)».',
+      hy: '«ՄԱՐՏԱ․ Գտա՞ր գիրքը։ — ՊԱԲԼՈ․ Այո՛, սեղանի վրա էր։ (Մարտան մոտենում է և ժպտում)»։',
+      correct: 'Dramático',
+      justEs: 'Porque el fragmento está escrito como una escena teatral con diálogos y una acotación.',
+      justHy: 'Թատերգական սեռ, որովհետև կան կերպարների երկխոսություններ և բեմական նշում։',
+    },
+    {
+      id: 'p2_4',
+      es: '«Cada verano, los hermanos visitaban la casa de sus abuelos. Una tarde descubrieron una antigua fotografía».',
+      hy: '«Ամեն ամառ եղբայրներն այցելում էին իրենց պապիկ-տատիկի տուն։ Մի կեսօր նրանք գտան մի հին լուսանկար»։',
+      correct: 'Narrativo',
+      justEs: 'Porque se relata una historia que sucede en un tiempo y un lugar.',
+      justHy: 'Պատմողական սեռ, որովհետև պատմվում են որոշակի ժամանակում և վայրում տեղի ունեցող իրադարձություններ։',
+    },
+    {
+      id: 'p2_5',
+      es: '«Oh, dulce recuerdo de mi infancia, guardado para siempre en mi corazón».',
+      hy: '«Օ՜, իմ մանկության քաղցր հուշ, ընդմիշտ պահված իմ սրտում»։',
+      correct: 'Lírico',
+      justEs: 'Porque expresa sentimientos personales con lenguaje poético.',
+      justHy: 'Քնարական սեռ, որովհետև արտահայտվում են անձնական զգացմունքներ՝ բանաստեղծական լեզվով։',
+    },
+    {
+      id: 'p2_6',
+      es: '«LUCÍA: ¡No te rindas! Podemos conseguirlo. — DANIEL: Tienes razón. Vamos a intentarlo. (Los dos salen del escenario)».',
+      hy: '«ԼՈՒՍԻԱ․ Մի՛ հանձնվիր։ Մենք կարող ենք հասնել դրան։ — ԴԱՆԻԵԼ․ Իրավացի ես։ Եկ փորձենք։ (Երկուսը դուրս են գալիս բեմից)»։',
+      correct: 'Dramático',
+      justEs: 'Porque está pensado como una representación con diálogos y acciones escénicas.',
+      justHy: 'Թատերգական սեռ, որովհետև տեքստը ներկայացված է բեմական երկխոսության և գործողությունների ձևով։',
+    },
+  ],
+  part3CultaPopular: [
+    { id: 'p3_1', es: '1. Una novela escrita por una autora conocida.', hy: 'Հայտնի գրողի կողմից գրված վեպ։', correct: 'Culta' },
+    { id: 'p3_2', es: '2. Una canción tradicional que los abuelos enseñan a sus nietos.', hy: 'Ավանդական երգ, որը պապիկ-տատիկները սովորեցնում են թոռներին։', correct: 'Popular' },
+    { id: 'p3_3', es: '3. Un cuento antiguo de autor desconocido transmitido oralmente.', hy: 'Անհայտ հեղինակի հին հեքիաթ՝ բանավոր փոխանցված։', correct: 'Popular' },
+    { id: 'p3_4', es: '4. Una obra teatral escrita por un dramaturgo conocido.', hy: 'Հայտնի թատերագրի գրած թատերական պիես։', correct: 'Culta' },
+    { id: 'p3_5', es: '5. Una leyenda tradicional contada de generación en generación.', hy: 'Ավանդական լեգենդ՝ պատմված սերնդեսերունդ։', correct: 'Popular' },
+    { id: 'p3_6', es: '6. Un libro de poemas publicado por un poeta conocido.', hy: 'Հայտնի բանաստեղծի հրատարակած բանաստեղծությունների գիրք։', correct: 'Culta' },
+  ],
+  part3Models: {
+    cultaEs: 'Es literatura culta porque tiene un autor conocido y es una obra de creación individual.',
+    cultaHy: 'Հեղինակային գրականություն է, որովհետև ունի հայտնի հեղինակ և անհատական ստեղծագործություն է։',
+    popularEs: 'Es literatura popular porque se transmite tradicionalmente de generación en generación y su autor puede ser desconocido.',
+    popularHy: 'Ժողովրդական գրականություն է, որովհետև փոխանցվում է սերնդեսերունդ, և հեղինակը կարող է անհայտ լինել։',
+  },
+  part4Romance: {
+    verses: [
+      {
+        num: 1,
+        es: 'Por la tarde leo cuentos,',
+        hy: 'Կեսօրին պատմվածքներ եմ կարդում,',
+        syllables: ['Por', 'la', 'tar', 'de', 'le', 'o', 'cuen', 'tos'],
+        rhyme: false,
+      },
+      {
+        num: 2,
+        es: 'y paseo por la plaza.',
+        hy: 'և զբոսնում եմ հրապարակում։',
+        syllables: ['y', 'pa', 'se', 'o', 'por', 'la', 'pla', 'za'],
+        rhyme: true,
+        rhymeWord: 'plaza (a-a)',
+      },
+      {
+        num: 3,
+        es: 'Mis amigos ríen juntos,',
+        hy: 'Ընկերներս միասին ծիծաղում են,',
+        syllables: ['Mis', 'a', 'mi', 'gos', 'rí', 'en', 'jun', 'tos'],
+        rhyme: false,
+      },
+      {
+        num: 4,
+        es: 'caminamos hasta casa.',
+        hy: 'քայլում ենք մինչև տուն։',
+        syllables: ['ca', 'mi', 'na', 'mos', 'has', 'ta', 'ca', 'sa'],
+        rhyme: true,
+        rhymeWord: 'casa (a-a)',
+      },
+    ],
+    questions: [
+      { letter: 'A', qEs: '¿Cuántos versos tiene el fragmento?', qHy: 'Քանի՞ տող ունի հատվածը։', aEs: 'Tiene cuatro versos.', aHy: 'Ունի չորս տող։' },
+      { letter: 'B', qEs: '¿Cuántas sílabas métricas tiene cada verso?', qHy: 'Քանի՞ վանկ ունի յուրաքանչյուր տողը։', aEs: 'Cada verso tiene ocho sílabas métricas (octosílabos).', aHy: 'Յուրաքանչյուր տողը ութվանկանի է։' },
+      { letter: 'C', qEs: '¿Qué tipo de rima tienen los versos pares?', qHy: 'Ի՞նչ տեսակի հանգ ունեն զույգ տողերը։', aEs: 'Rima asonante.', aHy: 'Ձայնավորային հանգ (rima asonante)։' },
+      { letter: 'D', qEs: '¿Qué palabras riman?', qHy: 'Ո՞ր բառերն են հանգավորվում։', aEs: '«Plaza» y «casa» (coinciden las vocales a-a desde la última vocal tónica).', aHy: '«Plaza» և «casa» (համընկնում են a-a ձայնավորները)։' },
+      { letter: 'E', qEs: '¿Qué ocurre con los versos impares?', qHy: 'Ի՞նչ է տեղի ունենում կենտ տողերի հետ։', aEs: 'Quedan sueltos, es decir, no siguen la rima de los pares.', aHy: 'Մնում են անհանգ, այսինքն՝ չեն հանգավորվում։' },
+      { letter: 'F', qEs: '¿Qué características del romance presenta el fragmento?', qHy: 'Ռոմանսի ի՞նչ հատկանիշներ ունի հատվածը։', aEs: 'Tiene versos octosílabos, rima asonante en los versos pares y versos impares sueltos.', aHy: 'Ունի ութվանկանի տողեր, զույգ տողերում ձայնավորային հանգ և անհանգ կենտ տողեր։' },
+    ],
+    mitoLeyendaCuento: [
+      {
+        id: 'mlc1',
+        es: '1. Una historia explica el origen del mar mediante la intervención de un dios.',
+        hy: 'Պատմությունը բացատրում է ծովի ծագումը աստծո միջամտությամբ։',
+        correct: 'Mito',
+        justEs: 'Mito, porque intenta explicar un fenómeno natural mediante seres divinos.',
+        justHy: 'Առասպել է, որովհետև աստվածների միջոցով բացատրվում է բնական երևույթի ծագումը։',
+      },
+      {
+        id: 'mlc2',
+        es: '2. Un relato tradicional cuenta que, hace siglos, una luz misteriosa apareció en un castillo real.',
+        hy: 'Ավանդական պատմությունը պատմում է, որ դարեր առաջ մի իրական ամրոցում խորհրդավոր լույս է հայտնվել։',
+        correct: 'Leyenda',
+        justEs: 'Leyenda, porque combina un lugar real con elementos fantásticos.',
+        justHy: 'Ավանդազրույց է, որովհետև իրական վայրը միավորվում է երևակայական տարրերի հետ։',
+      },
+      {
+        id: 'mlc3',
+        es: '3. Una narración breve cuenta cómo una niña ayuda a un anciano y descubre el valor de la generosidad.',
+        hy: 'Կարճ պատմությունը պատմում է, թե ինչպես է մի աղջիկ օգնում ծերունուն և բացահայտում առատաձեռնության արժեքը։',
+        correct: 'Cuento',
+        justEs: 'Cuento, porque es una narración breve con personajes y un argumento sencillo.',
+        justHy: 'Պատմվածք է, որովհետև կարճ պատմություն է՝ հերոսներով և պարզ սյուժեով։',
+      },
+    ],
+  },
+  part5Lenguaje: {
+    ex1: {
+      qEs: '1. ¿Cuál de estas frases utiliza lenguaje literario?',
+      qHy: 'Այս նախադասություններից ո՞րն է օգտագործում գեղարվեստական լեզու։',
+      options: [
+        { letter: 'A', es: 'La temperatura es de veinte grados.', hy: 'Ջերմաստիճանը քսան աստիճան է։' },
+        { letter: 'B', es: 'El sol pintó de oro las montañas.', hy: 'Արևը ոսկով ներկեց լեռները։' },
+        { letter: 'C', es: 'El autobús llega a las ocho.', hy: 'Ավտոբուսը հասնում է ժամը ութին։' },
+      ],
+      correct: 1,
+      expEs: 'Respuesta: B. Utiliza una expresión imaginativa y una personificación para describir el paisaje.',
+      expHy: 'Պատկերավոր արտահայտություն և անձնավորում է օգտագործվում բնությունը նկարագրելու համար։',
+    },
+    openQuestions: [
+      {
+        num: 2,
+        qEs: '¿Cuál es la diferencia entre prosa y verso?',
+        qHy: 'Ո՞րն է արձակի և չափածոյի տարբերությունը։',
+        aEs: 'La prosa se organiza en oraciones y párrafos, mientras que el verso se organiza en líneas poéticas que pueden tener medida y ritmo.',
+        aHy: 'Արձակը գրվում է նախադասություններով ու պարբերություններով, իսկ չափածոն՝ բանաստեղծական տողերով, որոնք կարող են ունենալ վանկաչափ և ռիթմ։',
+      },
+      {
+        num: 3,
+        qEs: '¿Un texto escrito en prosa puede tener lenguaje literario?',
+        qHy: 'Կարո՞ղ է արձակ գրված տեքստն ունենալ գեղարվեստական լեզու։',
+        aEs: 'Sí, porque una novela o un cuento puede utilizar metáforas, personificaciones y otros recursos literarios.',
+        aHy: 'Այո՛, որովհետև վեպը կամ պատմվածքը նույնպես կարող է ունենալ փոխաբերություններ և այլ գեղարվեստական միջոցներ։',
+      },
+      {
+        num: 4,
+        qEs: '¿Qué es una rima asonante?',
+        qHy: 'Ի՞նչ է ձայնավորային հանգը (rima asonante)։',
+        aEs: 'Es la repetición de los sonidos vocálicos a partir de la última vocal tónica.',
+        aHy: 'Վերջին շեշտված ձայնավորից սկսած ձայնավոր հնչյունների համընկնումն է։',
+      },
+      {
+        num: 5,
+        qEs: '¿Qué es un texto literario?',
+        qHy: 'Ի՞նչ է գեղարվեստական տեքստը։',
+        aEs: 'Es un texto en el que se utiliza el lenguaje de manera artística, expresiva o creativa.',
+        aHy: 'Տեքստ է, որտեղ լեզուն գործածվում է գեղարվեստական, արտահայտիչ կամ ստեղծագործական ձևով։',
+      },
+    ],
+  },
+  part6Figuras: {
+    allChoices: [
+      'Aliteración',
+      'Onomatopeya',
+      'Paronomasia',
+      'Epanadiplosis',
+      'Hipérbaton',
+      'Anáfora',
+      'Asíndeton',
+      'Polisíndeton',
+      'Enumeración',
+      'Pleonasmo',
+      'Metáfora',
+      'Hipérbole',
+      'Personificación',
+      'Ironía',
+    ],
+    items: [
+      { id: 'bf1', es: '1. Su suave susurro sonaba sin cesar.', hy: 'Նրա մեղմ շշուկը հնչում էր անդադար։', answer: 'Aliteración', expEs: 'Se repite el sonido /s/ en varias palabras.', expHy: 'Կրկնվում է «ս» հնչյունը։' },
+      { id: 'bf2', es: '2. ¡Tic-tac, tic-tac!, sonó el reloj.', hy: 'Տի՛կ-տակ, տի՛կ-տակ,— հնչեց ժամացույցը։', answer: 'Onomatopeya', expEs: '«Tic-tac» imita el sonido de un reloj.', expHy: '«Տիկ-տակ»-ը նմանակում է ժամացույցի ձայնը։' },
+      { id: 'bf3', es: '3. No es lo mismo una casa que una cosa.', hy: 'Նույնը չէ տունը (casa) և իրը (cosa)։', answer: 'Paronomasia', expEs: 'Se utilizan palabras de sonido parecido, pero significado diferente: casa/cosa.', expHy: 'Օգտագործվում են նմանահունչ, բայց տարբեր իմաստներով բառեր։' },
+      { id: 'bf4', es: '4. Verde, el campo parecía verde.', hy: 'Կանաչ, դաշտը թվում էր կանաչ։', answer: 'Epanadiplosis', expEs: 'La palabra «verde» aparece al principio y al final del mismo enunciado.', expHy: '«Verde» բառը կրկնվում է նույն արտահայտության սկզբում և վերջում։' },
+      { id: 'bf5', es: '5. En la mesa un cuaderno dejó Laura.', hy: 'Սեղանին մի տետր թողեց Լաուրան։', answer: 'Hipérbaton', expEs: 'Se altera el orden habitual. Orden normal: «Laura dejó un cuaderno en la mesa.»', expHy: 'Սովորական բառադասությունը փոխված է։' },
+      { id: 'bf6', es: '6. Quiero aprender, quiero crecer, quiero ayudar.', hy: 'Ուզում եմ սովորել, ուզում եմ մեծանալ, ուզում եմ օգնել։', answer: 'Anáfora', expEs: 'Se repite «quiero» al principio de varias expresiones.', expHy: '«Quiero» բառը կրկնվում է մի քանի հատվածների սկզբում։' },
+      { id: 'bf7', es: '7. Leyó, pensó, sonrió, respondió.', hy: 'Կարդաց, մտածեց, ժպտաց, պատասխանեց։', answer: 'Asíndeton', expEs: 'Se omiten las conjunciones entre los verbos.', expHy: 'Բայերի միջև շաղկապները բաց են թողնված։' },
+      { id: 'bf8', es: '8. Y reía y cantaba y saltaba.', hy: 'Եվ ծիծաղում էր, և երգում էր, և ցատկում էր։', answer: 'Polisíndeton', expEs: 'Se repite innecesariamente la conjunción «y» para dar expresividad.', expHy: '«Y» շաղկապը մի քանի անգամ կրկնվում է՝ խոսքն ավելի արտահայտիչ դարձնելու համար։' },
+      { id: 'bf9', es: '9. Guardó lápices, libros, reglas y cuadernos.', hy: 'Պահեց մատիտներ, գրքեր, քանոններ և տետրեր։', answer: 'Enumeración', expEs: 'Se presentan varios elementos uno tras otro.', expHy: 'Մի քանի առարկաներ թվարկվում են իրար հետևից։' },
+      { id: 'bf10', es: '10. Lo vi con mis propios ojos.', hy: 'Ես դա իմ սեփական աչքերով տեսա։', answer: 'Pleonasmo', expEs: '«Con mis propios ojos» refuerza una idea ya expresada por «vi».', expHy: 'Իմաստով ավելորդ բառեր են օգտագործվում՝ միտքն ընդգծելու համար։' },
+      { id: 'bf11', es: '11. La esperanza es una semilla.', hy: 'Հույսը սերմ է։', answer: 'Metáfora', expEs: 'La esperanza se identifica con una semilla.', expHy: 'Հույսը ներկայացվում է որպես սերմ։' },
+      { id: 'bf12', es: '12. Te lo he dicho un millón de veces.', hy: 'Ես քեզ միլիոն անգամ եմ ասել։', answer: 'Hipérbole', expEs: 'Se exagera mucho el número de veces.', expHy: 'Չափազանցված է կրկնությունների քանակը։' },
+      { id: 'bf13', es: '13. La luna me guiñó un ojo.', hy: 'Լուսինն ինձ աչքով արեց։', answer: 'Personificación', expEs: 'Se atribuye a la luna una acción humana: guiñar un ojo.', expHy: 'Լուսնին վերագրվում է մարդկային գործողություն՝ աչքով անել։' },
+      { id: 'bf14', es: '14. ¡Qué puntual eres! Llegaste dos horas tarde.', hy: 'Ի՜նչ ճշտապահ ես։ Երկու ժամ ուշացար։', answer: 'Ironía', expEs: 'Se dice «puntual» cuando la persona ha llegado tarde.', expHy: 'Ասվում է «ճշտապահ», բայց նկատի է առնվում հակառակը։' },
+    ],
+    levelsQuiz: [
+      { figura: 'Aliteración', level: 'Fónico' },
+      { figura: 'Onomatopeya', level: 'Fónico' },
+      { figura: 'Paronomasia', level: 'Fónico' },
+      { figura: 'Hipérbaton', level: 'Morfosintáctico' },
+      { figura: 'Anáfora', level: 'Morfosintáctico' },
+      { figura: 'Asíndeton', level: 'Morfosintáctico' },
+      { figura: 'Polisíndeton', level: 'Morfosintáctico' },
+      { figura: 'Enumeración', level: 'Morfosintáctico' },
+      { figura: 'Pleonasmo', level: 'Morfosintáctico' },
+      { figura: 'Metáfora', level: 'Semántico' },
+      { figura: 'Personificación', level: 'Semántico' },
+      { figura: 'Hipérbole', level: 'Semántico' },
+      { figura: 'Ironía', level: 'Semántico' },
+    ],
+    metaforaForms: [
+      {
+        id: 'mf1',
+        es: '1. Su sonrisa es un sol.',
+        hy: 'Նրա ժպիտը արև է։',
+        correct: 'A es B',
+        expEs: 'Aparecen el elemento real (sonrisa) y el imaginario (sol).',
+        expHy: 'Հանդես են գալիս թե՛ իրական երևույթը (ժպիտ), թե՛ պատկերավորը (արև)։',
+      },
+      {
+        id: 'mf2',
+        es: '2. El oro de su cabello brillaba.',
+        hy: 'Նրա մազերի ոսկին փայլում էր։',
+        correct: 'B de A',
+        expEs: 'El elemento imaginario (oro) se relaciona con el elemento real (cabello).',
+        expHy: 'Պատկերավոր տարրը (ոսկի) կապվում է իրականի (մազեր) հետ։',
+      },
+      {
+        id: 'mf3',
+        es: '3. Dos luceros iluminaban su rostro.',
+        hy: 'Երկու լուսատու լուսավորում էին նրա դեմքը։',
+        correct: 'B',
+        expEs: 'Si «luceros» se refiere a sus ojos, aparece solamente el elemento imaginario.',
+        expHy: 'Եթե «luceros»-ը վերաբերում է նրա աչքերին, ապա նշված է միայն պատկերավոր բառը։',
+      },
+    ],
+  },
+  part7Funciones: {
+    choices: ['Referencial', 'Expresiva', 'Apelativa', 'Fática', 'Metalingüística', 'Poética'],
+    items: [
+      { id: 'fn1', es: '1. La biblioteca abre a las ocho.', hy: 'Գրադարանը բացվում է ժամը ութին։', answer: 'Referencial', expEs: 'Transmite información objetiva.', expHy: 'Փոխանցում է տեղեկություն։' },
+      { id: 'fn2', es: '2. ¡Qué alegría volver a verte!', hy: 'Ի՜նչ ուրախություն է նորից քեզ տեսնելը։', answer: 'Expresiva', expEs: 'Expresa sentimientos del hablante.', expHy: 'Արտահայտում է խոսողի զգացմունքները։' },
+      { id: 'fn3', es: '3. Por favor, cierra la ventana.', hy: 'Խնդրում եմ, փակի՛ր պատուհանը։', answer: 'Apelativa', expEs: 'Busca provocar una respuesta o acción del receptor.', expHy: 'Նպատակ ունի ազդելու լսողի գործողության վրա։' },
+      { id: 'fn4', es: '4. ¿Hola? ¿Me escuchas bien?', hy: 'Ալո՞։ Ինձ լա՞վ ես լսում։', answer: 'Fática', expEs: 'Comprueba o mantiene el contacto comunicativo.', expHy: 'Ստուգում կամ պահպանում է հաղորդակցական կապը։' },
+      { id: 'fn5', es: '5. «Rápido» es un adjetivo.', hy: '«Rápido»-ն ածական է։', answer: 'Metalingüística', expEs: 'Utiliza el lenguaje para hablar del propio lenguaje.', expHy: 'Լեզվի միջոցով բացատրում է հենց լեզուն։' },
+      { id: 'fn6', es: '6. Las hojas bailan bajo la luna.', hy: 'Տերևները պարում են լուսնի տակ։', answer: 'Poética', expEs: 'Destaca la forma artística del mensaje.', expHy: 'Կարևորում է խոսքի գեղարվեստական ձևը։' },
+    ],
+  },
+  part8Modalidades: {
+    choices: [
+      'Enunciativa afirmativa',
+      'Enunciativa negativa',
+      'Interrogativa',
+      'Exclamativa',
+      'Exhortativa',
+      'Dubitativa',
+      'Desiderativa',
+    ],
+    items: [
+      { id: 'md1', es: '1. Hoy tenemos clase de literatura.', hy: 'Այսօր գրականության դաս ունենք։', answer: 'Enunciativa afirmativa', expEs: 'Informa o afirma algo.', expHy: 'Հաստատում է տեղեկությունը։' },
+      { id: 'md2', es: '2. Mañana no iremos al museo.', hy: 'Վաղը թանգարան չենք գնա։', answer: 'Enunciativa negativa', expEs: 'Niega una información.', expHy: 'Ժխտում է տեղեկությունը։' },
+      { id: 'md3', es: '3. ¿Has terminado los ejercicios?', hy: 'Ավարտե՞լ ես վարժությունները։', answer: 'Interrogativa', expEs: 'Formula una pregunta.', expHy: 'Հարց է տալիս։' },
+      { id: 'md4', es: '4. ¡Qué día tan maravilloso!', hy: 'Ի՜նչ հրաշալի օր է։', answer: 'Exclamativa', expEs: 'Expresa sorpresa, alegría u otra emoción con intensidad.', expHy: 'Արտահայտում է զարմանք, ուրախություն կամ այլ ուժեղ զգացմունք։' },
+      { id: 'md5', es: '5. Guarda el cuaderno, por favor.', hy: 'Խնդրում եմ, պահի՛ր տետրը։', answer: 'Exhortativa', expEs: 'Expresa una orden, una petición o un consejo.', expHy: 'Հրաման, խնդրանք կամ խորհուրդ է արտահայտում։' },
+      { id: 'md6', es: '6. Quizás venga mi primo mañana.', hy: 'Գուցե վաղը զարմիկս գա։', answer: 'Dubitativa', expEs: 'Expresa duda o posibilidad.', expHy: 'Արտահայտում է կասկած կամ հավանականություն։' },
+      { id: 'md7', es: '7. Ojalá todos aprueben el examen.', hy: 'Երանի թե բոլորը հանձնեն քննությունը։', answer: 'Desiderativa', expEs: 'Expresa un deseo.', expHy: 'Ցանկություն է արտահայտում։' },
+    ],
+  },
+  part9Comunicacion: {
+    sentences: [
+      { es: 'La profesora Elena escribe en la pizarra: «Mañana visitaremos el museo».', hy: 'Ուսուցչուհի Էլենան գրատախտակին գրում է․ «Վաղը կայցելենք թանգարան»։' },
+      { es: 'Los alumnos leen el mensaje durante la clase.', hy: 'Աշակերտները դասի ընթացքում կարդում են ուղերձը։' },
+    ],
+    situationEs:
+      'La profesora Elena escribe en la pizarra: «Mañana visitaremos el museo». Los alumnos leen el mensaje durante la clase.',
+    situationHy:
+      'Ուսուցչուհի Էլենան գրատախտակին գրում է․ «Վաղը կայցելենք թանգարան»։ Աշակերտները դասի ընթացքում կարդում են ուղերձը։',
+    items: [
+      { letter: 'A', role: 'Emisor', qEs: '¿Quién es el emisor?', qHy: 'Ո՞վ է ուղարկողը (emisor)։', aEs: 'La profesora Elena.', aHy: 'Ուղարկողը ուսուցչուհի Էլենան է։' },
+      { letter: 'B', role: 'Receptor', qEs: '¿Quiénes son los receptores?', qHy: 'Ովքե՞ր են ստացողները (receptores)։', aEs: 'Los alumnos.', aHy: 'Ստացողները աշակերտներն են։' },
+      { letter: 'C', role: 'Mensaje', qEs: '¿Cuál es el mensaje?', qHy: 'Ո՞րն է հաղորդագրությունը (mensaje)։', aEs: '«Mañana visitaremos el museo».', aHy: 'Հաղորդագրությունն է՝ «Վաղը կայցելենք թանգարան»։' },
+      { letter: 'D', role: 'Código', qEs: '¿Qué código se utiliza?', qHy: 'Ի՞նչ կոդ է օգտագործվում (código)։', aEs: 'La lengua española escrita.', aHy: 'Օգտագործվում է գրավոր իսպաներեն լեզուն։' },
+      { letter: 'E', role: 'Canal', qEs: '¿Cuál es el canal?', qHy: 'Ո՞րն է հաղորդակցման ալիքը (canal)։', aEs: 'El canal visual, mediante el texto escrito en la pizarra.', aHy: 'Տեսողական հաղորդակցություն՝ գրատախտակին գրված տեքստի միջոցով։' },
+      { letter: 'F', role: 'Contexto', qEs: '¿Cuál es el contexto?', qHy: 'Ո՞րն է համատեքստը (contexto)։', aEs: 'Una clase en la que la profesora informa a los alumnos sobre una visita al museo.', aHy: 'Համատեքստը դասարանային իրավիճակն է, երբ ուսուցչուհին տեղեկացնում է աշակերտներին թանգարան այցելության մասին։' },
+    ],
+  },
+  part10Gramatica: {
+    sentenceEs: '¡Ay! Ella guardó dos libros nuevos en la mochila y salió rápidamente.',
+    sentenceHy: 'Ա՜յ։ Նա պայուսակի մեջ դրեց երկու նոր գիրք և արագ դուրս եկավ։',
+    choices: [
+      'Interjección',
+      'Pronombre',
+      'Verbo',
+      'Determinante numeral',
+      'Sustantivo',
+      'Adjetivo',
+      'Preposición',
+      'Artículo determinado',
+      'Conjunción',
+      'Adverbio',
+    ],
+    words: [
+      { id: 'w1', word: '¡Ay!', hy: 'Ա՜յ', answer: 'Interjección', catHy: 'Ձայնարկություն' },
+      { id: 'w2', word: 'Ella', hy: 'Նա (աղջիկ)', answer: 'Pronombre', catHy: 'Դերանուն' },
+      { id: 'w3', word: 'guardó', hy: 'դրեց / պահեց', answer: 'Verbo', catHy: 'Բայ' },
+      { id: 'w4', word: 'dos', hy: 'երկու', answer: 'Determinante numeral', catHy: 'Թվական որոշիչ' },
+      { id: 'w5', word: 'libros', hy: 'գրքեր', answer: 'Sustantivo', catHy: 'Գոյական' },
+      { id: 'w6', word: 'nuevos', hy: 'նոր', answer: 'Adjetivo', catHy: 'Ածական' },
+      { id: 'w7', word: 'en', hy: 'մեջ / -ում', answer: 'Preposición', catHy: 'Նախդիր' },
+      { id: 'w8', word: 'la', hy: 'որոշյալ հոդ (իգ.)', answer: 'Artículo determinado', catHy: 'Որոշյալ հոդ' },
+      { id: 'w9', word: 'mochila', hy: 'պայուսակ', answer: 'Sustantivo', catHy: 'Գոյական' },
+      { id: 'w10', word: 'y', hy: 'և', answer: 'Conjunción', catHy: 'Շաղկապ' },
+      { id: 'w11', word: 'salió', hy: 'դուրս եկավ', answer: 'Verbo', catHy: 'Բայ' },
+      { id: 'w12', word: 'rápidamente', hy: 'արագորեն', answer: 'Adverbio', catHy: 'Մակբայ' },
+    ],
+    hardCases: [
+      {
+        word: 'Ella — Pronombre',
+        es: 'Sustituye o representa a una persona sin nombrarla directamente.',
+        hy: 'Դերանուն է, որովհետև օգտագործվում է անձի անվան փոխարեն։',
+      },
+      {
+        word: 'Dos — Determinante',
+        es: 'Acompaña al sustantivo «libros» e indica cantidad.',
+        hy: 'Որոշիչ է, որովհետև ուղեկցում է «libros» գոյականին և ցույց է տալիս քանակը։',
+      },
+      {
+        word: 'Nuevos — Adjetivo',
+        es: 'Expresa una característica de los libros.',
+        hy: 'Ածական է, որովհետև ցույց է տալիս գրքերի հատկանիշը։',
+      },
+      {
+        word: 'Rápidamente — Adverbio',
+        es: 'Modifica el verbo «salió» e indica cómo salió.',
+        hy: 'Մակբայ է, որովհետև ցույց է տալիս, թե ինչպես դուրս եկավ։',
+      },
+    ],
+  },
+};
+
+// ============================================================================
+// MODULE 5: MINI EXAMEN FINAL — 10 PREGUNTAS DE REPASO
+// ============================================================================
+export const MINI_EXAM = [
+  {
+    id: 'm1',
+    qEs: '1. ¿A qué género pertenece una obra representada por actores en un escenario?',
+    qHy: 'Ո՞ր սեռին է պատկանում դերասանների կողմից բեմում ներկայացվող ստեղծագործությունը։',
+    options: [
+      { letter: 'A', es: 'Lírico', hy: 'Քնարական' },
+      { letter: 'B', es: 'Dramático', hy: 'Թատերգական' },
+      { letter: 'C', es: 'Narrativo', hy: 'Պատմողական' },
+      { letter: 'D', es: 'Popular', hy: 'Ժողովրդական' },
+    ],
+    correct: 1,
+    expEs: 'El género dramático o teatral se representa en un escenario mediante diálogos.',
+    expHy: 'Թատերգական սեռը ներկայացվում է բեմում՝ երկխոսությունների միջոցով։',
+  },
+  {
+    id: 'm2',
+    qEs: '2. ¿Qué es una metáfora?',
+    qHy: 'Ի՞նչ է փոխաբերությունը (metáfora)։',
+    options: [
+      { letter: 'A', es: 'Una pregunta', hy: 'Հարց' },
+      { letter: 'B', es: 'Una exageración', hy: 'Չափազանցություն' },
+      { letter: 'C', es: 'Una identificación figurada entre realidades', hy: 'Երևույթների պատկերավոր նույնացում' },
+      { letter: 'D', es: 'Una repetición de nexos', hy: 'Շաղկապների կրկնություն' },
+    ],
+    correct: 2,
+    expEs: 'La metáfora identifica dos realidades distintas sin usar «como».',
+    expHy: 'Փոխաբերությունը նույնացնում է երկու տարբեր երևույթներ՝ առանց «ինչպես» բառի։',
+  },
+  {
+    id: 'm3',
+    qEs: '3. ¿Cuántas sílabas métricas tiene normalmente un verso de romance?',
+    qHy: 'Սովորաբար քանի՞ վանկ ունի ռոմանսի մեկ տողը։',
+    options: [
+      { letter: 'A', es: '6', hy: '6' },
+      { letter: 'B', es: '8', hy: '8' },
+      { letter: 'C', es: '10', hy: '10' },
+      { letter: 'D', es: '12', hy: '12' },
+    ],
+    correct: 1,
+    expEs: 'El romance está formado por versos octosílabos (8 sílabas).',
+    expHy: 'Ռոմանսը կազմված է ութվանկանի տողերից։',
+  },
+  {
+    id: 'm4',
+    qEs: '4. ¿Qué figura aparece en «Y ríe y canta y baila»?',
+    qHy: 'Ի՞նչ գեղարվեստական միջոց է կիրառված «Եվ ծիծաղում է, և երգում է, և պարում է» նախադասության մեջ։',
+    options: [
+      { letter: 'A', es: 'Asíndeton', hy: 'Անշաղկապություն' },
+      { letter: 'B', es: 'Hipérbaton', hy: 'Շրջադասություն' },
+      { letter: 'C', es: 'Polisíndeton', hy: 'Բազմաշաղկապություն' },
+      { letter: 'D', es: 'Metáfora', hy: 'Փոխաբերություն' },
+    ],
+    correct: 2,
+    expEs: 'Polisíndeton: repetición expresiva de la conjunción «y».',
+    expHy: 'Բազմաշաղկապություն․ «y» շաղկապի արտահայտիչ կրկնություն։',
+  },
+  {
+    id: 'm5',
+    qEs: '5. ¿Qué modalidad tiene «Ojalá podamos ir»?',
+    qHy: 'Ի՞նչ նախադասության տեսակ է «Երանի թե կարողանանք գնալ»-ը։',
+    options: [
+      { letter: 'A', es: 'Desiderativa', hy: 'Ցանկական' },
+      { letter: 'B', es: 'Interrogativa', hy: 'Հարցական' },
+      { letter: 'C', es: 'Dubitativa', hy: 'Երկմտական' },
+      { letter: 'D', es: 'Exhortativa', hy: 'Հրամայական / խնդրական' },
+    ],
+    correct: 0,
+    expEs: 'Desiderativa: expresa un deseo («ojalá»).',
+    expHy: 'Ցանկական նախադասություն․ արտահայտում է ցանկություն։',
+  },
+  {
+    id: 'm6',
+    qEs: '6. ¿Qué función predomina en «¿Me oyes?»?',
+    qHy: 'Խոսքի ո՞ր գործառույթն է գերակշռում «Ինձ լսո՞ւմ ես» հարցում։',
+    options: [
+      { letter: 'A', es: 'Referencial', hy: 'Տեղեկատվական' },
+      { letter: 'B', es: 'Metalingüística', hy: 'Մետալեզվական' },
+      { letter: 'C', es: 'Fática', hy: 'Կապի (ֆատիկ)' },
+      { letter: 'D', es: 'Poética', hy: 'Բանաստեղծական' },
+    ],
+    correct: 2,
+    expEs: 'Función fática: comprueba si el canal de comunicación funciona.',
+    expHy: 'Կապի գործառույթ․ ստուգում է, թե արդյոք հաղորդակցական կապը գործում է։',
+  },
+  {
+    id: 'm7',
+    qEs: '7. ¿Qué género expresa principalmente sentimientos?',
+    qHy: 'Ո՞ր գրական սեռն է հիմնականում արտահայտում զգացմունքներ։',
+    options: [
+      { letter: 'A', es: 'Narrativo', hy: 'Պատմողական' },
+      { letter: 'B', es: 'Lírico', hy: 'Քնարական' },
+      { letter: 'C', es: 'Dramático', hy: 'Թատերգական' },
+      { letter: 'D', es: 'Cuento', hy: 'Պատմվածք' },
+    ],
+    correct: 1,
+    expEs: 'El género lírico expresa sentimientos y emociones.',
+    expHy: 'Քնարական սեռն արտահայտում է զգացմունքներ և հույզեր։',
+  },
+  {
+    id: 'm8',
+    qEs: '8. ¿Qué figura aparece en «Lo vi con mis propios ojos»?',
+    qHy: 'Ի՞նչ գեղարվեստական միջոց կա «Ես դա իմ սեփական աչքերով տեսա» նախադասության մեջ։',
+    options: [
+      { letter: 'A', es: 'Pleonasmo', hy: 'Ավելորդաբանություն (պլեոնազմ)' },
+      { letter: 'B', es: 'Onomatopeya', hy: 'Ձայնանմանություն' },
+      { letter: 'C', es: 'Paronomasia', hy: 'Հարանունություն' },
+      { letter: 'D', es: 'Ironía', hy: 'Հեգնանք' },
+    ],
+    correct: 0,
+    expEs: 'Pleonasmo: añade palabras redundantes («con mis propios ojos») para reforzar la idea.',
+    expHy: 'Պլեոնազմ․ ավելացնում է իմաստով կրկնվող բառեր՝ միտքն ուժեղացնելու համար։',
+  },
+  {
+    id: 'm9',
+    qEs: '9. ¿Qué categoría gramatical es «lentamente»?',
+    qHy: 'Ո՞ր խոսքի մասն է «lentamente» (դանդաղորեն) բառը։',
+    options: [
+      { letter: 'A', es: 'Adjetivo', hy: 'Ածական' },
+      { letter: 'B', es: 'Sustantivo', hy: 'Գոյական' },
+      { letter: 'C', es: 'Pronombre', hy: 'Դերանուն' },
+      { letter: 'D', es: 'Adverbio', hy: 'Մակբայ' },
+    ],
+    correct: 3,
+    expEs: 'Adverbio de modo: modifica al verbo e indica cómo se realiza la acción.',
+    expHy: 'Ձևի մակբայ․ ցույց է տալիս, թե ինչպես է կատարվում գործողությունը։',
+  },
+  {
+    id: 'm10',
+    qEs: '10. ¿Qué tipo de literatura suele transmitirse oralmente de generación en generación?',
+    qHy: 'Գրականության ո՞ր տեսակն է սովորաբար բանավոր փոխանցվում սերնդեսերունդ։',
+    options: [
+      { letter: 'A', es: 'Popular', hy: 'Ժողովրդական' },
+      { letter: 'B', es: 'Culta', hy: 'Հեղինակային' },
+      { letter: 'C', es: 'Científica', hy: 'Գիտական' },
+      { letter: 'D', es: 'Dramática', hy: 'Թատերգական' },
+    ],
+    correct: 0,
+    expEs: 'La literatura popular se transmite oralmente de generación en generación.',
+    expHy: 'Ժողովրդական գրականությունը փոխանցվում է բանավոր՝ սերնդեսերունդ։',
+  },
+];
+
+// ============================================================================
+// MODULE 6: RESUMEN DE TEORÍA — CÓMO HACER UN RESUMEN & TIEMPOS VERBALES
+// ============================================================================
+export const RESUMEN_GUIDE = {
+  guide1: {
+    metaEs: 'Lengua Castellana y Literatura — 1.º de ESO (7.º curso)',
+    metaHy: 'Իսպաներեն և գրականություն — 1.º de ESO (7-րդ դասարան)',
+    titleEs: 'Resumen de teoría — Cómo hacer un resumen de un texto',
+    titleHy: 'Տեսության ամփոփում — Ինչպե՞ս գրել տեքստի համառոտ ամփոփում',
+    subHy: 'Ինչպե՞ս գրել տեքստի համառոտ ամփոփում',
+    definition: {
+      es: 'Un resumen es un texto breve que recoge las ideas más importantes de un texto original, utilizando nuestras propias palabras.',
+      hy: 'Ամփոփումը կարճ տեքստ է, որտեղ ներկայացվում են բնօրինակ տեքստի ամենակարևոր մտքերը՝ մեր սեփական բառերով։',
+    },
+    importante: [
+      {
+        es: 'Un resumen no es una copia del texto.',
+        hy: 'Ամփոփումը տեքստի արտագրություն չէ։',
+      },
+      {
+        es: 'No debemos incluir detalles innecesarios.',
+        hy: 'Պետք չէ ավելացնել ավելորդ մանրամասներ։',
+      },
+      {
+        es: 'No debemos expresar nuestra opinión.',
+        hy: 'Չպետք է արտահայտենք մեր կարծիքը։',
+      },
+      {
+        es: 'Debemos respetar el orden de los acontecimientos.',
+        hy: 'Պետք է պահպանենք իրադարձությունների հերթականությունը։',
+      },
+    ],
+    pasos: [
+      {
+        num: 1,
+        titleEs: 'Paso 1. Leer el texto completo',
+        titleHy: 'Քայլ 1․ Կարդալ ամբողջ տեքստը',
+        descEs: 'Lee el texto completo para comprender bien de qué trata.',
+        descHy: 'Կարդա ամբողջ տեքստը՝ հասկանալու համար, թե ինչի մասին է այն։',
+        qEs: 'Pregunta: ¿De qué trata el texto?',
+        qHy: 'Հարց․ Ինչի՞ մասին է տեքստը։',
+      },
+      {
+        num: 2,
+        titleEs: 'Paso 2. Identificar las ideas principales',
+        titleHy: 'Քայլ 2․ Առանձնացնել գլխավոր մտքերը',
+        descEs: 'Encuentra la idea principal y los acontecimientos más importantes.',
+        descHy: 'Գտիր գլխավոր միտքը և ամենակարևոր իրադարձությունները։',
+        qEs: 'Pregunta: ¿Qué es lo más importante?',
+        qHy: 'Հարց․ Ո՞րն է ամենակարևորը։',
+      },
+      {
+        num: 3,
+        titleEs: 'Paso 3. Eliminar los detalles secundarios',
+        titleHy: 'Քայլ 3․ Հեռացնել երկրորդական մանրամասները',
+        descEs: 'Omite las descripciones secundarias, las repeticiones y los detalles poco importantes.',
+        descHy: 'Բաց թող երկրորդական նկարագրությունները, կրկնությունները և ոչ կարևոր մանրամասները։',
+        qEs: 'Pregunta: ¿Puedo quitar esta información sin cambiar el sentido?',
+        qHy: 'Հարց․ Կարո՞ղ եմ հեռացնել այս տեղեկությունը՝ առանց իմաստը փոխելու։',
+      },
+      {
+        num: 4,
+        titleEs: 'Paso 4. Escribir con tus propias palabras',
+        titleHy: 'Քայլ 4․ Գրել քո սեփական բառերով',
+        descEs: 'Escribe con tus propias palabras, usando frases breves, claras y conectadas.',
+        descHy: 'Գրիր քո բառերով՝ կարճ, հասկանալի և կապակցված նախադասություններով։',
+        qEs: 'Pregunta: ¿Cómo puedo explicar lo mismo de forma más breve?',
+        qHy: 'Հարց․ Ինչպե՞ս կարող եմ նույնը բացատրել ավելի կարճ։',
+      },
+      {
+        num: 5,
+        titleEs: 'Paso 5. Revisar el resumen',
+        titleHy: 'Քայլ 5․ Ստուգել ամփոփումը',
+        descEs: 'Comprueba que el resumen sea claro, no incluya opinión personal y no tenga errores gramaticales.',
+        descHy: 'Ստուգիր, որ ամփոփումը լինի հասկանալի, առանց կարծիքի, և չունենա քերականական սխալներ։',
+        qEs: 'Pregunta: ¿He incluido solo lo esencial?',
+        qHy: 'Հարց․ Ներառե՞լ եմ միայն ամենակարևորը։',
+      },
+    ],
+    partes: [
+      {
+        partEs: 'Inicio',
+        partHy: 'Սկիզբ',
+        whatEs: 'Presentar el tema o la situación principal.',
+        whatHy: 'Ներկայացնել գլխավոր թեման կամ իրավիճակը։',
+      },
+      {
+        partEs: 'Desarrollo',
+        partHy: 'Զարգացում',
+        whatEs: 'Explicar los acontecimientos más importantes.',
+        whatHy: 'Ներկայացնել հիմնական իրադարձությունները։',
+      },
+      {
+        partEs: 'Final',
+        partHy: 'Ավարտ',
+        whatEs: 'Contar cómo termina la historia.',
+        whatHy: 'Ներկայացնել պատմության ավարտը։',
+      },
+    ],
+    partesNote: {
+      es: 'Estas tres partes se pueden escribir en un solo párrafo breve.',
+      hy: 'Այս երեք մասերը կարելի է գրել մեկ կարճ պարբերությամբ։',
+    },
+    palabrasUtiles: [
+      { es: 'Al principio', hy: 'Սկզբում' },
+      { es: 'Primero', hy: 'Նախ' },
+      { es: 'Después', hy: 'Հետո' },
+      { es: 'Luego', hy: 'Այնուհետև' },
+      { es: 'Más tarde', hy: 'Ավելի ուշ' },
+      { es: 'Mientras tanto', hy: 'Այդ ընթացքում' },
+      { es: 'Finalmente', hy: 'Վերջապես' },
+      { es: 'Al final', hy: 'Վերջում' },
+      { es: 'Porque', hy: 'Որովհետև' },
+      { es: 'Por eso', hy: 'Այդ պատճառով' },
+    ],
+    ejemplo: {
+      originalSentences: [
+        {
+          es: 'Una mañana, Lucía encontró un pequeño perro perdido cerca de su colegio.',
+          hy: 'Մի առավոտ Լուսիան իր դպրոցի մոտ գտավ մոլորված փոքրիկ շուն։',
+        },
+        {
+          es: 'El animal estaba asustado y tenía hambre.',
+          hy: 'Կենդանին վախեցած էր և սոված։',
+        },
+        {
+          es: 'Lucía decidió ayudarlo y le dio un poco de agua.',
+          hy: 'Լուսիան որոշեց օգնել նրան և մի քիչ ջուր տվեց։',
+        },
+        {
+          es: 'Después, llamó a su madre y juntas buscaron al dueño.',
+          hy: 'Հետո զանգահարեց մայրիկին, և նրանք միասին փնտրեցին տիրոջը։',
+        },
+        {
+          es: 'Finalmente, encontraron a una familia que llevaba horas buscando a su mascota.',
+          hy: 'Վերջապես գտան մի ընտանիքի, որն արդեն ժամեր շարունակ փնտրում էր իր կենդանուն։',
+        },
+        {
+          es: 'Todos se alegraron mucho.',
+          hy: 'Բոլորը շատ ուրախացան։',
+        },
+      ],
+      antesDeEscribir: [
+        {
+          num: 1,
+          qEs: '1. ¿Quién es el personaje principal?',
+          qHy: '1. Ո՞վ է գլխավոր հերոսը։',
+          aEs: 'Lucía.',
+          aHy: 'Լուսիան։',
+        },
+        {
+          num: 2,
+          qEs: '2. ¿Qué ocurre?',
+          qHy: '2. Ի՞նչ է տեղի ունենում։',
+          aEs: 'Lucía encuentra un perro perdido.',
+          aHy: 'Լուսիան գտնում է մոլորված շուն։',
+        },
+        {
+          num: 3,
+          qEs: '3. ¿Qué hace para solucionar el problema?',
+          qHy: '3. Ի՞նչ է անում խնդիրը լուծելու համար։',
+          aEs: 'Ayuda al perro y busca a su dueño.',
+          aHy: 'Օգնում է շանը և փնտրում նրա տիրոջը։',
+        },
+        {
+          num: 4,
+          qEs: '4. ¿Cómo termina la historia?',
+          qHy: '4. Ինչպե՞ս է ավարտվում պատմությունը։',
+          aEs: 'Encuentran a la familia del perro.',
+          aHy: 'Գտնում են շան ընտանիքին։',
+        },
+      ],
+      resumenCorrecto: [
+        {
+          es: 'Lucía encuentra un perro perdido cerca de su colegio y decide ayudarlo.',
+          hy: 'Լուսիան իր դպրոցի մոտ գտնում է մոլորված շուն և որոշում օգնել նրան։',
+        },
+        {
+          es: 'Con la ayuda de su madre, busca a sus dueños y finalmente consigue reunir al animal con su familia.',
+          hy: 'Մոր օգնությամբ նա փնտրում է շան տերերին և վերջապես կարողանում է կենդանուն վերադարձնել իր ընտանիքին։',
+        },
+      ],
+    },
+    errores: [
+      {
+        wrongEs: 'Copiar frases enteras.',
+        wrongHy: 'Արտագրել ամբողջ նախադասությունները։',
+        rightEs: 'Usar tus propias palabras.',
+        rightHy: 'Գրել սեփական բառերով։',
+      },
+      {
+        wrongEs: 'Contar todos los detalles.',
+        wrongHy: 'Պատմել բոլոր մանրամասները։',
+        rightEs: 'Seleccionar lo esencial.',
+        rightHy: 'Ընտրել միայն կարևորը։',
+      },
+      {
+        wrongEs: 'Escribir «Me ha gustado mucho».',
+        wrongHy: 'Գրել անձնական կարծիք։',
+        rightEs: 'No expresar opiniones.',
+        rightHy: 'Կարծիք չարտահայտել։',
+      },
+      {
+        wrongEs: 'Cambiar el final de la historia.',
+        wrongHy: 'Փոխել պատմության ավարտը։',
+        rightEs: 'Respetar el contenido original.',
+        rightHy: 'Պահպանել բնօրինակի բովանդակությունը։',
+      },
+      {
+        wrongEs: 'Escribir frases sin relación.',
+        wrongHy: 'Գրել իրար հետ չկապված նախադասություններ։',
+        rightEs: 'Conectar las ideas.',
+        rightHy: 'Կապակցել մտքերը։',
+      },
+    ],
+    truco: {
+      introEs: 'Después de leer el texto, responde a estas cinco preguntas clave:',
+      introHy: 'Սովորեցրու երեխային տեքստը կարդալուց հետո պատասխանել այս հինգ հարցերին։',
+      preguntasClave: [
+        { num: 1, qEs: '¿Quién?', qHy: 'Ո՞վ', dEs: 'El personaje principal', dHy: 'Գլխավոր հերոսը' },
+        { num: 2, qEs: '¿Dónde?', qHy: 'Որտե՞ղ', dEs: 'El lugar, si es importante', dHy: 'Վայրը, եթե կարևոր է' },
+        { num: 3, qEs: '¿Qué pasó?', qHy: 'Ի՞նչ պատահեց', dEs: 'El acontecimiento principal', dHy: 'Գլխավոր իրադարձությունը' },
+        { num: 4, qEs: '¿Qué hizo?', qHy: 'Ի՞նչ արեց', dEs: 'Las acciones importantes', dHy: 'Կարևոր գործողությունները' },
+        { num: 5, qEs: '¿Cómo terminó?', qHy: 'Ինչպե՞ս ավարտվեց', dEs: 'El resultado', dHy: 'Արդյունքը' },
+      ],
+      joinNoteEs: 'Una vez respondidas estas preguntas, une las respuestas en 3–5 frases conectadas.',
+      joinNoteHy: 'Երբ երեխան պատասխանի այս հարցերին, թող պատասխանները միացնի 3–5 կապակցված նախադասություններով։',
+      reglaDeOroEs: 'Un buen resumen debe ser breve, claro, objetivo y fiel al texto original.',
+      reglaDeOroHy: 'Լավ ամփոփումը պետք է լինի կարճ, հստակ, առանց անձնական կարծիքի և հավատարիմ բնօրինակ տեքստին։',
+      lengthNoteEs: 'En el examen, la extensión del resumen depende de lo que pida la consigna. Si hay un límite de palabras, es obligatorio respetarlo.',
+      lengthNoteHy: 'Քննության ժամանակ ամփոփման երկարությունը կախված է առաջադրանքի պահանջից։ Եթե տրված է բառերի սահմանափակում, այն պարտադիր պետք է պահպանել։',
+    },
+  },
+  guide2: {
+    metaEs: 'Lengua Castellana y Literatura — 1.º de ESO (7.º curso)',
+    metaHy: 'Իսպաներեն և գրականություն — 1.º de ESO (7-րդ դասարան)',
+    titleEs: 'Resumen de teoría — ¿Qué tiempos verbales debemos utilizar?',
+    titleHy: 'Տեսության ամփոփում — Ինչպե՞ս ճիշտ ընտրել բայի ժամանակը տեքստի ամփոփման մեջ',
+    subHy: 'Ինչպե՞ս ճիշտ ընտրել բայի ժամանակը տեքստի ամփոփման մեջ։ Երեխան պետք է հասկանա ոչ միայն ինչպես կրճատել տեքստը, այլ նաև որ ժամանակով գրել նախադասությունները, հատկապես երբ պատմությունը գրված է անցյալ ժամանակով։',
+    presenteRule: {
+      es: 'Normalmente, en un resumen escolar se utiliza el presente de indicativo, aunque el texto original esté escrito en pasado.',
+      hy: 'Սովորաբար դպրոցական ամփոփումը գրվում է ներկա ժամանակով, նույնիսկ եթե բնօրինակ պատմությունը գրված է անցյալ ժամանակով։',
+    },
+    mariaExample: {
+      origEs: 'Ayer, María encontró un perro y lo llevó a su casa.',
+      origHy: 'Երեկ Մարիան շուն գտավ և նրան տարավ իր տուն։',
+      resEs: 'María encuentra un perro y lo lleva a su casa.',
+      resHy: 'Մարիան շուն է գտնում և նրան տանում է իր տուն։',
+    },
+    atencion: {
+      es: '¡Atención! Si el profesor pide expresamente escribir en pasado, debemos utilizar los tiempos del pasado. En caso contrario, para resumir un texto literario o narrativo, el presente suele ser la mejor opción.',
+      hy: 'Ուշադրություն։ Եթե ուսուցիչը հատուկ պահանջում է գրել անցյալ ժամանակով, պետք է օգտագործել անցյալ ժամանակները։ Հակառակ դեպքում գրական կամ պատմողական տեքստի ամփոփման համար ներկան սովորաբար հարմար ընտրություն է։',
+    },
+    tiemposPasadoIntro: {
+      es: 'Si la actividad pide resumir en pasado, conviene conocer la diferencia entre estos tres tiempos verbales:',
+      hy: 'Եթե առաջադրանքը պահանջում է ամփոփել անցյալ ժամանակով, պետք է իմանալ այս երեք ժամանակների տարբերությունը։',
+    },
+    tiemposPasado: [
+      {
+        name: 'Pretérito Indefinido',
+        whenEs: 'Acción terminada en el pasado.',
+        whenHy: 'Ավարտված գործողություն։',
+        exEs: 'María encontró un perro.',
+        exHy: 'Մարիան շուն գտավ։',
+      },
+      {
+        name: 'Pretérito Imperfecto',
+        whenEs: 'Descripción, estado o costumbre en el pasado.',
+        whenHy: 'Նկարագրություն, վիճակ կամ սովորություն անցյալում։',
+        exEs: 'El perro estaba triste.',
+        exHy: 'Շունը տխուր էր։',
+      },
+      {
+        name: 'Pretérito Pluscuamperfecto',
+        whenEs: 'Acción que ocurrió antes de otra acción pasada.',
+        whenHy: 'Գործողություն, որը տեղի էր ունեցել մեկ այլ անցյալ գործողությունից առաջ։',
+        exEs: 'El perro se había perdido.',
+        exHy: 'Շունը մոլորվել էր։',
+      },
+    ],
+    pasoAPaso: [
+      {
+        num: 1,
+        qEs: '¿Qué pasó?',
+        qHy: 'Ի՞նչ պատահեց։',
+        descEs: 'Si hablamos de un acontecimiento concreto y terminado, usamos el Indefinido.',
+        descHy: 'Եթե խոսքը կոնկրետ, ավարտված իրադարձության մասին է, օգտագործում ենք Indefinido։',
+        tense: 'Indefinido',
+        examples: [
+          { es: 'Lucía encontró una carta.', hy: 'Լուսիան մի նամակ գտավ։' },
+          { es: 'Después, llamó a su amiga.', hy: 'Հետո զանգահարեց ընկերուհուն։' },
+          { es: 'Finalmente, resolvió el problema.', hy: 'Վերջապես լուծեց խնդիրը։' },
+        ],
+      },
+      {
+        num: 2,
+        qEs: '¿Cómo era? ¿Cómo estaba?',
+        qHy: 'Ինչպիսի՞ն էր։ Ի՞նչ վիճակում էր։',
+        descEs: 'Si describimos al personaje, el lugar o la situación en el pasado, usamos el Imperfecto.',
+        descHy: 'Եթե նկարագրում ենք հերոսին, վայրը կամ իրավիճակը անցյալում, օգտագործում ենք Imperfecto։',
+        tense: 'Imperfecto',
+        examples: [
+          { es: 'La niña estaba preocupada.', hy: 'Աղջիկն անհանգստացած էր։' },
+          { es: 'Hacía mucho frío.', hy: 'Շատ ցուրտ էր։' },
+          { es: 'El perro tenía hambre.', hy: 'Շունը սոված էր։' },
+        ],
+      },
+      {
+        num: 3,
+        qEs: '¿Qué había pasado antes?',
+        qHy: 'Ի՞նչ էր տեղի ունեցել դրանից առաջ։',
+        descEs: 'Si la acción ocurrió antes de otro hecho pasado, usamos el Pluscuamperfecto.',
+        descHy: 'Եթե գործողությունը տեղի էր ունեցել մեկ այլ անցյալ իրադարձությունից առաջ, օգտագործում ենք Pluscuamperfecto։',
+        tense: 'Pluscuamperfecto',
+        examples: [
+          {
+            es: 'El perro se había perdido antes de que Lucía lo encontrara.',
+            hy: 'Շունը մոլորվել էր մինչև այն պահը, երբ Լուսիան գտավ նրան։',
+          },
+        ],
+      },
+    ],
+    ejemploClara: {
+      originalSentences: [
+        {
+          es: 'Una mañana, Clara salió de casa para ir al colegio.',
+          hy: 'Մի առավոտ Կլարան դուրս եկավ տնից՝ դպրոց գնալու։',
+        },
+        {
+          es: 'Hacía frío y las calles estaban vacías.',
+          hy: 'Ցուրտ էր, և փողոցները դատարկ էին։',
+        },
+        {
+          es: 'En el camino, encontró una mochila que alguien había olvidado en un banco.',
+          hy: 'Ճանապարհին նա գտավ մի ուսապարկ, որը ինչ-որ մեկը մոռացել էր նստարանին։',
+        },
+        {
+          es: 'Clara la llevó al colegio y se la entregó a una profesora.',
+          hy: 'Կլարան այն տարավ դպրոց և փոխանցեց ուսուցչուհուն։',
+        },
+        {
+          es: 'Finalmente, encontraron al dueño.',
+          hy: 'Վերջապես գտան տիրոջը։',
+        },
+      ],
+      paso1: [
+        { qEs: '¿Quién?', qHy: 'Ո՞վ։', aEs: 'Clara', aHy: 'Կլարան' },
+        { qEs: '¿Qué encontró?', qHy: 'Ի՞նչ գտավ։', aEs: 'Una mochila olvidada', aHy: 'Մոռացված ուսապարկ' },
+        { qEs: '¿Qué hizo?', qHy: 'Ի՞նչ արեց։', aEs: 'La entregó a una profesora', aHy: 'Փոխանցեց ուսուցչուհուն' },
+        { qEs: '¿Cómo terminó?', qHy: 'Ինչպե՞ս ավարտվեց։', aEs: 'Encontraron al dueño', aHy: 'Գտան տիրոջը' },
+      ],
+      paso2: [
+        {
+          infoEs: 'Clara salió de casa.',
+          infoHy: 'Կլարան դուրս եկավ տնից։',
+          tenseEs: 'Indefinido — acción terminada',
+          tenseHy: 'Indefinido — ավարտված գործողություն',
+        },
+        {
+          infoEs: 'Hacía frío.',
+          infoHy: 'Ցուրտ էր։',
+          tenseEs: 'Imperfecto — descripción',
+          tenseHy: 'Imperfecto — նկարագրություն',
+        },
+        {
+          infoEs: 'Alguien había olvidado la mochila.',
+          infoHy: 'Ինչ-որ մեկը մոռացել էր ուսապարկը։',
+          tenseEs: 'Pluscuamperfecto — acción anterior',
+          tenseHy: 'Pluscuamperfecto — ավելի վաղ կատարված գործողություն',
+        },
+        {
+          infoEs: 'Clara entregó la mochila.',
+          infoHy: 'Կլարան փոխանցեց ուսապարկը։',
+          tenseEs: 'Indefinido — acción terminada',
+          tenseHy: 'Indefinido — ավարտված գործողություն',
+        },
+      ],
+      opcionA: [
+        {
+          es: 'Clara encuentra una mochila olvidada cuando va al colegio.',
+          hy: 'Կլարան դպրոց գնալիս գտնում է մոռացված ուսապարկ։',
+        },
+        {
+          es: 'Decide entregársela a una profesora y finalmente consiguen encontrar al dueño.',
+          hy: 'Նա որոշում է այն փոխանցել ուսուցչուհուն, և վերջապես նրանց հաջողվում է գտնել տիրոջը։',
+        },
+      ],
+      opcionB: [
+        {
+          es: 'Clara encontró una mochila que alguien había olvidado.',
+          hy: 'Կլարան գտավ մի ուսապարկ, որը ինչ-որ մեկը մոռացել էր։',
+        },
+        {
+          es: 'La llevó al colegio y se la entregó a una profesora.',
+          hy: 'Նա այն տարավ դպրոց և փոխանցեց ուսուցչուհուն։',
+        },
+        {
+          es: 'Finalmente, encontraron al dueño.',
+          hy: 'Վերջապես գտան տիրոջը։',
+        },
+      ],
+    },
+    quickCheck: [
+      {
+        id: 'rg_t1',
+        qEs: '1. ¿Qué pasó?',
+        qHy: 'Ի՞նչ պատահեց։',
+        options: ['Indefinido', 'Imperfecto', 'Pluscuamperfecto'],
+        correct: 'Indefinido',
+        expEs: 'Indefinido: se usa para contar hechos concretos y terminados.',
+        expHy: 'Indefinido՝ օգտագործվում է կոնկրետ, ավարտված իրադարձությունների համար։',
+      },
+      {
+        id: 'rg_t2',
+        qEs: '2. ¿Cómo era la situación?',
+        qHy: 'Ինչպիսի՞ն էր իրավիճակը։',
+        options: ['Indefinido', 'Imperfecto', 'Pluscuamperfecto'],
+        correct: 'Imperfecto',
+        expEs: 'Imperfecto: se usa para describir situaciones, estados o lugares en el pasado.',
+        expHy: 'Imperfecto՝ օգտագործվում է անցյալի իրավիճակը, վիճակը կամ տեղը նկարագրելու համար։',
+      },
+      {
+        id: 'rg_t3',
+        qEs: '3. ¿Qué había ocurrido antes?',
+        qHy: 'Ի՞նչ էր տեղի ունեցել ավելի վաղ։',
+        options: ['Indefinido', 'Imperfecto', 'Pluscuamperfecto'],
+        correct: 'Pluscuamperfecto',
+        expEs: 'Pluscuamperfecto: expresa una acción anterior a otro hecho pasado.',
+        expHy: 'Pluscuamperfecto՝ արտահայտում է մեկ այլ անցյալ գործողությունից առաջ տեղի ունեցած իրադարձություն։',
+      },
+    ],
+    reglaPrincipal: {
+      es: 'Para resumir un cuento, normalmente utilizamos el presente de indicativo. Si debemos escribirlo en pasado, usamos el Indefinido para contar los hechos, el Imperfecto para describir y el Pluscuamperfecto para expresar lo que había ocurrido antes.',
+      hy: 'Պատմվածքի ամփոփման համար սովորաբար օգտագործում ենք ներկա ժամանակը։ Եթե պետք է գրել անցյալ ժամանակով, ապա՝ Indefinido՝ իրադարձությունների համար, Imperfecto՝ նկարագրությունների համար, և Pluscuamperfecto՝ ավելի վաղ տեղի ունեցած գործողությունների համար։',
+      extraEs: 'Además, no es obligatorio utilizar todos los tiempos del pasado en un resumen. Elegimos únicamente los tiempos necesarios para transmitir correctamente el sentido de la historia.',
+      extraHy: 'Եվ կարևոր է. ամփոփման մեջ պարտադիր չէ օգտագործել բոլոր անցյալ ժամանակները։ Ընտրում ենք միայն այն ժամանակները, որոնք անհրաժեշտ են պատմության իմաստը ճիշտ փոխանցելու համար։',
+    },
+  },
+};
+

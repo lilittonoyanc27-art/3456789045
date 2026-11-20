@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Fraunces', 'Noto Serif Armenian', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html {
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.65;
+    scroll-behavior: smooth;
+    background-color: #fffbf7;
+    color: #1c1917;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-mono-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Clickable Spanish phrase styling (click to toggle Armenian translation) */
+.es-click {
+  cursor: pointer;
+  border-radius: 0.3rem;
+  transition: background-color 150ms cubic-bezier(0.16, 1, 0.3, 1), color 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #fb923c;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.es-click:hover {
+  background-color: #fff7ed;
+  text-decoration-color: #c2410c;
+}
+
+.es-click:focus-visible {
+  outline: 2px solid #c2410c;
+  outline-offset: 2px;
+}
+
+.es-click.is-open {
+  background-color: #ffedd5;
+  color: #7c2d12;
+  text-decoration-color: #c2410c;
+  text-decoration-style: solid;
+}
+
+/* Exam underlined expression inside reading passages */
+.exam-underline {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #9a3412;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 5px;
+  font-weight: 600;
+}
+
+/* Inline Armenian translation reveal panel */
+.hy-reveal {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  background-color: #fff7ed;
+  border: 1px solid #fdba74;
+  border-radius: 0.625rem;
+  color: #7c2d12;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 500;
+  animation: fadeSlideIn 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hy-reveal.is-visible {
+  display: block;
+}
+
+/* Inline compact translation for table cells or short options */
+.hy-inline {
+  display: none;
+  margin-top: 0.35rem;
+  color: #9a3412;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.hy-inline.is-visible {
+  display: block;
+}
+
+/* Story paragraph clickable block */
+.story-para {
+  cursor: pointer;
+  border-radius: 0.625rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid transparent;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.story-para:hover {
+  background-color: #fff7ed;
+  border-color: #fed7aa;
+}
+
+.story-para.is-open {
+  background-color: #fff7ed;
+  border-color: #fdba74;
+}
+
+/* Story sentence clickable highlight */
+.story-sent {
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.08rem 0.2rem;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #fdba74;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 5px;
+  transition: background-color 140ms ease;
+}
+
+.story-sent:hover {
+  background-color: #fff7ed;
+}
+
+.story-sent.is-active {
+  background-color: #ffedd5;
+  color: #1c1917;
+  text-decoration-color: #c2410c;
+  text-decoration-style: solid;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hy-reveal {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
